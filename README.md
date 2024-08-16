@@ -50,48 +50,22 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
 
 ## Equipe
 
+## Equipe
+
 ### Integrantes
 
-<div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
-
-  <div style="text-align: center;">
-    <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYYll-xjLkog/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713807555532?e=1729123200&v=beta&t=-1DHMtsXTrSPc_ZH92Lh5gte3ZQEpcG07JoG8PTZ9qc" alt="Leide Olinto" style="width: 150px; border-radius: 50%;">
-    <p><strong>Leide Olinto</strong></p>
-    <p>Full Stack</p>
-    <p><a href="https://www.linkedin.com/in/leidy-olinto/" target="_blank">LinkedIn</a></p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="https://media.licdn.com/dms/image/v2/D4D03AQE0ffyD_yV-oQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711468558815?e=1729123200&v=beta&t=w_16izJtoFswGUquc_l4nkpFCOwf1CLUwSzIHybvKYE" alt="Yashina Gomes" style="width: 150px; border-radius: 50%;">
-    <p><strong>Yashina Gomes</strong></p>
-    <p>UX Design & Full Stack</p>
-    <p><a href="https://www.linkedin.com/in/yashinadev/" target="_blank">LinkedIn</a></p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="https://media.licdn.com/dms/image/D5603AQFNzu20VoM4zA/profile-displayphoto-shrink_800_800/0/1694654910271?e=1729123200&v=beta&t=AbT8dkjDrHJ9rgsGRBYrS50xIxVN2qELsB-WD1Q_qEM" alt="Odair Michael Bendotti" style="width: 150px; border-radius: 50%;">
-    <p><strong>Odair Michael Bendotti</strong></p>
-    <p>Full Stack</p>
-    <p><a href="https://www.linkedin.com/in/obendotti/" target="_blank">LinkedIn</a></p>
-  </div>
-
-  <div style="text-align: center;">
-    <img src="https://media.licdn.com/dms/image/D4D03AQH3z7M5uGyIvA/profile-displayphoto-shrink_800_800/0/1714913403450?e=1729123200&v=beta&t=j2MYzmROQF72QpLhjkJKD2WGOGWZFBhD2nbd_EieWNs" alt="Vanessa Misiti" style="width: 150px; border-radius: 50%;">
-    <p><strong>Vanessa Misiti</strong></p>
-    <p>Front-End</p>
-    <p><a href="https://www.linkedin.com/in/vanessamisiti/" target="_blank">LinkedIn</a></p>
-  </div>
-
-</div>
+| Perfil | Nome e Email | Localização | Github | Linkedin |
+| ---------------- | -------------------------- | --------- | --------- | --------- |
+| <img width="100" alt="Leide Olinto" src="https://media.licdn.com/dms/image/v2/D4D03AQGYYll-xjLkog/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713807555532?e=1729123200&v=beta&t=-1DHMtsXTrSPc_ZH92Lh5gte3ZQEpcG07JoG8PTZ9qc"> | `Leide Olinto`<br><br>leide.olinto@example.com | Localização | <a href="https://github.com/leideolinto"> <img height="30" alt="GitHub do Leide" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leide-olinto/) |
+| <img width="100" alt="Yashina Gomes" src="https://media.licdn.com/dms/image/v2/D4D03AQE0ffyD_yV-oQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711468558815?e=1729123200&v=beta&t=w_16izJtoFswGUquc_l4nkpFCOwf1CLUwSzIHybvKYE"> | `Yashina Gomes`<br><br>yashina.gomes@example.com | Localização | <a href="https://github.com/yashinagomes"> <img height="30" alt="GitHub da Yashina" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashina-gomes/) |
+| <img width="100" alt="Odair Michael Bendotti" src="https://media.licdn.com/dms/image/D5603AQFNzu20VoM4zA/profile-displayphoto-shrink_800_800/0/1694654910271?e=1729123200&v=beta&t=AbT8dkjDrHJ9rgsGRBYrS50xIxVN2qELsB-WD1Q_qEM"> | `Odair Michael Bendotti`<br><br>odair.bendotti@example.com | Localização | <a href="https://github.com/odairbendotti"> <img height="30" alt="GitHub do Odair" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/odair-bendotti/) |
+| <img width="100" alt="Vanessa Misiti" src="https://media.licdn.com/dms/image/D4D03AQH3z7M5uGyIvA/profile-displayphoto-shrink_800_800/0/1714913403450?e=1729123200&v=beta&t=j2MYzmROQF72QpLhjkJKD2WGOGWZFBhD2nbd_EieWNs"> | `Vanessa Misiti`<br><br>vanessa.misiti@example.com | Localização | <a href="https://github.com/vanessamisiti"> <img height="30" alt="GitHub da Vanessa" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vanessa-misiti/) |
 
 ### Professor
 
-<div style="text-align: center; margin-top: 20px;">
-  <img src="https://media.licdn.com/dms/image/D4D03AQH40-QeTSDoVQ/profile-displayphoto-shrink_800_800/0/1719718035111?e=1729123200&v=beta&t=NIB3vkBOMJ0F5zReDeUc6832xzHHbYPUH79vvjuoDis" alt="Palmer Oliveira" style="width: 150px; border-radius: 50%;">
-  <p><strong>Palmer Oliveira</strong></p>
-  <p>Engenheiro de Software</p>
-  <p><a href="https://www.linkedin.com/in/palmer-oliveira/" target="_blank">LinkedIn</a></p>
-</div>
+| Perfil | Nome e Email | Localização | Github | Linkedin |
+| ---------------- | -------------------------- | --------- | --------- | --------- |
+| <img width="100" alt="Palmer Oliveira" src="https://media.licdn.com/dms/image/D4D03AQH40-QeTSDoVQ/profile-displayphoto-shrink_800_800/0/1719718035111?e=1729123200&v=beta&t=NIB3vkBOMJ0F5zReDeUc6832xzHHbYPUH79vvjuoDis"> | `Palmer Oliveira`<br><br>palmer.oliveira@example.com | Localização | <a href="https://github.com/palmeroliveira"> <img height="30" alt="GitHub do Palmer" src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white"></a> | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palmer-oliveira/) |
 
 
 
