@@ -44,6 +44,8 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
 
 ## Equipe
 
+## Equipe
+
 ### Integrantes
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
@@ -65,14 +67,14 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/D5603AQFNzu20VoM4zA/profile-displayphoto-shrink_800_800/0/1694654910271?e=1729123200&v=beta&t=AbT8dkjDrHJ9rgsGRBYrS50xIxVN2qELsB-WD1Q_qEM" alt="Odair Michael Bendotti" style="width: 150px; border-radius: 50%;">
     <p><strong>Odair Michael Bendotti</strong></p>
-     <p>Full Stack</p>
+    <p>Full Stack</p>
     <p><a href="https://www.linkedin.com/in/obendotti/" target="_blank">LinkedIn</a></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/D4D03AQH3z7M5uGyIvA/profile-displayphoto-shrink_800_800/0/1714913403450?e=1729123200&v=beta&t=j2MYzmROQF72QpLhjkJKD2WGOGWZFBhD2nbd_EieWNs" alt="Vanessa Misiti" style="width: 150px; border-radius: 50%;">
     <p><strong>Vanessa Misiti</strong></p>
-     <p>Front-End</p>
+    <p>Front-End</p>
     <p><a href="https://www.linkedin.com/in/vanessamisiti/" target="_blank">LinkedIn</a></p>
   </div>
 
@@ -86,6 +88,7 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
   <p>Engenheiro de Software</p>
   <p><a href="https://www.linkedin.com/in/palmer-oliveira/" target="_blank">LinkedIn</a></p>
 </div>
+
 
 
 ## Licença
