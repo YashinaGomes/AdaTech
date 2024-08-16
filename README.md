@@ -48,6 +48,8 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
 
 ## Equipe
 
+## Equipe
+
 ### Integrantes
 
 <div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
@@ -90,6 +92,7 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
   <p>Engenheiro de Software</p>
   <p><a href="https://www.linkedin.com/in/palmer-oliveira/" target="_blank">LinkedIn</a></p>
 </div>
+
 
 
 
