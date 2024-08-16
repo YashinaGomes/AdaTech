@@ -51,25 +51,28 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYYll-xjLkog/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713807555532?e=1729123200&v=beta&t=-1DHMtsXTrSPc_ZH92Lh5gte3ZQEpcG07JoG8PTZ9qc" alt="Leide Olinto" style="width: 150px; border-radius: 50%;">
     <p><strong>Leide Olinto</strong></p>
+    <p>Full Stack</p>
     <p><a href="https://www.linkedin.com/in/leidy-olinto/" target="_blank">LinkedIn</a></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/D4D03AQE0ffyD_yV-oQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711468558815?e=1729123200&v=beta&t=w_16izJtoFswGUquc_l4nkpFCOwf1CLUwSzIHybvKYE" alt="Yashina Gomes" style="width: 150px; border-radius: 50%;">
     <p><strong>Yashina Gomes</strong></p>
-    <p>UX Design & Desenvolvedora</p>
+    <p>UX Design & Full Stack</p>
     <p><a href="https://www.linkedin.com/in/yashinadev/" target="_blank">LinkedIn</a></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/D5603AQFNzu20VoM4zA/profile-displayphoto-shrink_800_800/0/1694654910271?e=1729123200&v=beta&t=AbT8dkjDrHJ9rgsGRBYrS50xIxVN2qELsB-WD1Q_qEM" alt="Odair Michael Bendotti" style="width: 150px; border-radius: 50%;">
     <p><strong>Odair Michael Bendotti</strong></p>
+     <p>Desenvolvedora</p>
     <p><a href="https://www.linkedin.com/in/obendotti/" target="_blank">LinkedIn</a></p>
   </div>
 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/D4D03AQH3z7M5uGyIvA/profile-displayphoto-shrink_800_800/0/1714913403450?e=1729123200&v=beta&t=j2MYzmROQF72QpLhjkJKD2WGOGWZFBhD2nbd_EieWNs" alt="Vanessa Misiti" style="width: 150px; border-radius: 50%;">
     <p><strong>Vanessa Misiti</strong></p>
+     <p>Desenvolvedora</p>
     <p><a href="https://www.linkedin.com/in/vanessamisiti/" target="_blank">LinkedIn</a></p>
   </div>
 
