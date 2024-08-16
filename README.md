@@ -23,6 +23,8 @@ O projeto é organizado da seguinte forma:
 - **Design no Figma**: [Acesse o design](https://www.figma.com/design/d6hvRG8YnxVAgX2zei08hZ/AdaTech?node-id=0-1&t=FMhssOZyjaIabdgh-1)
 - **Protótipo Interativo**: [Acesse o protótipo](https://www.figma.com/proto/d6hvRG8YnxVAgX2zei08hZ/AdaTech?page-id=0%3A1&node-id=26-331&viewport=1546%2C416%2C0.39&t=RDoMdMQKdR1Cx4iQ-1&scaling=min-zoom&content-scaling=fixed)
 
+- UX Design "Yáshina Gomes"
+
 ## Como Usar
 
 1. Clone este repositório para o seu ambiente local:
