@@ -46,9 +46,11 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
 
 ## Equipe
 
+## Equipe
+
 ### Integrantes
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+<div style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
 
   <div style="text-align: center;">
     <img src="https://media.licdn.com/dms/image/v2/D4D03AQGYYll-xjLkog/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1713807555532?e=1729123200&v=beta&t=-1DHMtsXTrSPc_ZH92Lh5gte3ZQEpcG07JoG8PTZ9qc" alt="Leide Olinto" style="width: 150px; border-radius: 50%;">
