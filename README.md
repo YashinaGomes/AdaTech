@@ -2,13 +2,10 @@
 
 Este projeto é uma aplicação estática desenvolvida para o curso da AdaTech em parceria com o Santander, utilizando HTML e CSS puro. O objetivo é criar uma página promocional que oferece descontos exclusivos para alunos da AdaTech e clientes Santander.
 
-![image](https://github.com/user-attachments/assets/64f90f0f-d23d-47a1-b4c6-1725b3d66aa3)
-![image](https://github.com/user-attachments/assets/abb5b9e7-1219-4582-8828-df5546d6610e)
-![image](https://github.com/user-attachments/assets/51dac0aa-3a01-446b-b0a4-11d1434bde1a)
+![image](https://github.com/user-attachments/assets/52f38432-e368-46a3-9914-9746bf720b38)
+![image](https://github.com/user-attachments/assets/bd1ea2a7-e7fb-4b1f-9c62-dd2b644511a0)
 
 
-
-![image](https://github.com/user-attachments/assets/3684e359-ae23-4630-918f-b7c0ea1e8ef5)
 
 
 
