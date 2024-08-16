@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Card - Parceria AdaTech + Santander</title>
+    <link rel="stylesheet" href="css/giftcard.css">
+</head>
+<body>
+    <header>
+        <h1>Gift Card</h1>
+    </header>
+
+    <main>
+        <article class="produto-detalhe">
+            <img src="img/produto1.jpg" alt="Gift Card">
+            <p>Escolha o valor do seu Gift Card:</p>
+            <form>
+                <label for="valor">Valor do Gift Card:</label>
+                <select id="valor" name="valor">
+                    <option value="50">R$50,00</option>
+                    <option value="100">R$100,00</option>
+                    <option value="150">R$150,00</option>
+                    <option value="200">R$200,00</option>
+                </select>
+                
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" min="1" max="10">
+                
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required>
+                
+                <label for="pagamento">Forma de Pagamento:</label>
+                <select id="pagamento" name="pagamento">
+                    <option value="cartao">Cartão de Crédito</option>
+                    <option value="boleto">Boleto Bancário</option>
+                </select>
+
+                <button type="submit">Comprar</button>
+            </form>
+        </article>
+    </main>
+
+    <aside>
+        <p>Benefícios de ser cliente Santander:</p>
+        <ul>
+            <li>15% de desconto em todos os produtos da AdaTech</li>
+            <li>Acesso a eventos exclusivos</li>
+            <li>Condições especiais em serviços financeiros</li>
+        </ul>
+        <p><a href="adesao.html">Clique aqui</a> para aderir ao cartão Santander e aproveitar os benefícios.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 AdaTech + Santander. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
