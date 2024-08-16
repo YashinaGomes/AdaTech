@@ -39,17 +39,6 @@ O projeto é organizado da seguinte forma:
 - **CSS3**
 
 ## Contribuições
-
-Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um pull request ou relatar problemas.
-
-## Equipe
-
-## Equipe
-
-## Equipe
-
-## Equipe
-
 ## Equipe
 
 ### Integrantes
