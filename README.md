@@ -57,6 +57,13 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
 - **Odair Michael Bendotti**
 - **Vanessa Missiti**
 
+### Professor
+
+- **Palmer Oliveira**
+https://www.linkedin.com/in/palmer-oliveira/
+
+
+
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
