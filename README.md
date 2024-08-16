@@ -53,9 +53,14 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
 ### Integrantes
 
 - **Leide Olinto**
+https://www.linkedin.com/in/leidy-olinto/
 - **Yashina Gomes**
+https://www.linkedin.com/in/yashinadev/
 - **Odair Michael Bendotti**
-- **Vanessa Missiti**
+https://www.linkedin.com/in/obendotti/
+- **Vanessa Misiti**
+https://www.linkedin.com/in/vanessamisiti/
+
 
 ### Professor
 
