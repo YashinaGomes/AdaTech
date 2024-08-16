@@ -67,7 +67,7 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir um 
   </div>
 
   <div style="text-align: center;">
-    <img src="URL_DA_FOTO_VANESSA" alt="Vanessa Misiti" style="width: 150px; border-radius: 50%;">
+    <img src="https://media.licdn.com/dms/image/D4D03AQH3z7M5uGyIvA/profile-displayphoto-shrink_800_800/0/1714913403450?e=1729123200&v=beta&t=j2MYzmROQF72QpLhjkJKD2WGOGWZFBhD2nbd_EieWNs" alt="Vanessa Misiti" style="width: 150px; border-radius: 50%;">
     <p><strong>Vanessa Misiti</strong></p>
     <p><a href="https://www.linkedin.com/in/vanessamisiti/" target="_blank">LinkedIn</a></p>
   </div>
