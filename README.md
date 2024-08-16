@@ -1,10 +1,9 @@
-Aqui está o README ajustado conforme solicitado:
-
----
-
 # Parceria AdaTech + Santander - Descontos Exclusivos
 
 Este projeto é uma aplicação estática desenvolvida para o curso da AdaTech em parceria com o Santander, utilizando HTML e CSS puro. O objetivo é criar uma página promocional que oferece descontos exclusivos para alunos da AdaTech e clientes Santander.
+
+![image](https://github.com/user-attachments/assets/53302ab1-2944-44fd-9336-0b5e2307d771)
+
 
 ## Descrição
 
