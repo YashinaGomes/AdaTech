@@ -27,6 +27,8 @@ body {
     height: 287px;
     background-size: cover;
     background-position: center;
+    margin-bottom: 3rem;
+
 }
 
 .linha {
@@ -94,8 +96,153 @@ a {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.48px;
+}
+
+.nossos_produtos {
+    display: flex;
+    flex-direction: column;
+    width: 978px;
+    gap: 1rem;
+    margin-top: 5rem;
+    padding: 5rem;
+}
+
+strong {
+    color: #A6F750;
+    font-family: "Fira Code", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}
+
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Ajusta o número de colunas com base no tamanho da tela */
+    gap: 6rem;
+    /* Espaçamento entre os itens */
+    padding: 2rem;
+}
+
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 376px;
+    height: 359px;
+    border-radius: 32px;
+    border-top: 2px solid #A6F750;
+    border-right: 2px solid #A6F750;
+    border-left: 2px solid #A6F750;
+    background: linear-gradient(0deg, rgba(40, 44, 51, 0.00) 0%, rgba(40, 44, 51, 0.00) 100%);
+    padding: 1rem;
+}
+
+.produto img.giftcard {
+    width: 251px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Centraliza a imagem horizontalmente */
+    margin-bottom: 0.6rem;
+    /* Espaçamento abaixo do título */
 
 }
+
+.produto img.headphone {
+    width: 118px;
+    height: 167px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+    box-shadow: #A6F750;
+
+}
+
+.produto img.livro {
+    width: 118px;
+    height: 145px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+    box-shadow: #A6F750;
+
+}
+
+.produto h2 {
+    color: #FFF;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: left;
+    /* Alinha o título à esquerda */
+
+}
+
+.produto p {
+    width: 346px;
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    margin: 0;
+    /* Remove margens padrão que podem afetar o alinhamento */
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    /* Alinha o botão à direita */
+}
+
+.botao-link {
+    display: inline-block;
+    width: 141px;
+    height: 27px;
+    border-radius: 27px;
+    border: 1px solid #A6F750;
+    background-color: #A6F750;
+    color: #282C33;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fira Code", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 1.6rem;
+    /* Espaçamento à direita do botão */
+}
+
+.botao-link:hover {
+    background-color: #00000000;
+    color: #FFF;
+}
+
+
+
+
 
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -116,10 +263,10 @@ a {
         flex-direction: column;
         gap: 1rem;
     }
-    
+
 
     header p {
-       
+
         font-size: clamp(6px, 5vw + 1px, 16px);
         width: 250px;
         margin-bottom: 4rem;
