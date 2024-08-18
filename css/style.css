@@ -77,7 +77,7 @@ h1 {
 
 }
 
-span {
+ header span {
     color: #181C23;
     font-family: "Fira Code", sans-serif;
     font-style: normal;
@@ -86,7 +86,7 @@ span {
     margin-bottom: 2rem;
 }
 
-a {
+header a {
     width: 693px;
     height: 21px;
     color: #181C23;
@@ -101,7 +101,6 @@ a {
 .nossos_produtos {
     display: flex;
     flex-direction: column;
-    width: 978px;
     gap: 1rem;
     margin-top: 5rem;
     padding: 5rem;
@@ -110,22 +109,25 @@ a {
 strong {
     color: #A6F750;
     font-family: "Fira Code", sans-serif;
-    font-size: 64px;
+    font-size: clamp(56px, 5vw, 64px);
+    /* Adapta o tamanho da fonte entre 32px e 64px */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-p {
-
+main p {
     color: #FFF;
     font-family: "Fira Code", sans-serif;
-    font-size: 24px;
+    font-size: clamp(23px, 2.5vw, 24px);
+    /* Adapta o tamanho da fonte entre 16px e 24px */
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 1.92px;
+    letter-spacing: clamp(0.8px, 0.3vw, 1.92px);
+    /* Adapta o espaçamento entre letras */
 }
+
 
 
 .produtos {
@@ -240,7 +242,56 @@ p {
     color: #FFF;
 }
 
+.cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 14rem;
+}
 
+.vantagens {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vantagens h2 {
+    color: #A6F750;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(32px, 5vw, 48px); /* Ajuste de acordo com suas necessidades */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.vantagens p {
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(18px, 3vw, 44px); /* Ajuste de acordo com suas necessidades */
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.vantagens strong {
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(18px, 2.7vw, 48px); /* Ajuste de acordo com suas necessidades */
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.cartao {
+    width: 25%;
+}
+
+.saiba-mais {}
+
+.button-cliente {}
 
 
 
@@ -279,7 +330,7 @@ p {
 
     }
 
-    span {
+    header span {
         color: #181C23;
         font-family: "Fira Code", sans-serif;
         font-style: normal;
@@ -288,7 +339,7 @@ p {
         margin-bottom: -1rem;
     }
 
-    a {
+    header a {
         width: 693px;
         height: 21px;
         color: #181C23;
@@ -342,5 +393,23 @@ p {
     h1 {
         width: 100%;
     }
+
+    .nossos_produtos {
+        padding: 2rem;
+    }
+
+    .produto {
+        margin-left: -1.6rem;
+    }
+
+    strong {
+        width: 200px;
+    }
+
+    main p {
+        width: 300px;
+
+    }
+
 
 }
