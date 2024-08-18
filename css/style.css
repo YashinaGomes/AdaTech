@@ -216,7 +216,7 @@ main p {
     /* Alinha o botão à direita */
 }
 
-.botao-link {
+.bnt-link {
     display: inline-block;
     width: 141px;
     height: 27px;
@@ -237,7 +237,7 @@ main p {
     /* Espaçamento à direita do botão */
 }
 
-.botao-link:hover {
+.bnt-link:hover {
     background-color: #00000000;
     color: #FFF;
 }
@@ -283,17 +283,9 @@ main p {
     font-weight: 700;
     line-height: normal;
 }
-
-
 .cartao {
     width: 25%;
 }
-
-.saiba-mais {}
-
-.button-cliente {}
-
-
 
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {

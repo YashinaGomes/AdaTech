@@ -1,5 +1,5 @@
 body {
-  background: #181c23;
+  background: #181C23;
 }
 
 .logo-capa {
@@ -11,9 +11,7 @@ body {
 
 .logo-capa img {
   width: 65%;
-  /* Ajusta a largura para ocupar 100% do contêiner pai */
   height: auto;
-  /* Mantém a proporção da imagem */
 }
 
 .intro {
@@ -21,133 +19,135 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
+
 }
 
 .banner {
   background-image: url(../public/images/FundoBanner.png);
-  width: 100%;
-  /* Ajusta a largura para ocupar 100% do contêiner pai */
   height: 287px;
   background-size: cover;
-  /* Adiciona para garantir que a imagem cubra todo o banner */
   background-position: center;
-  /* Centraliza a imagem no banner */
+  margin-bottom: 3rem;
+
 }
 
 .linha {
-  width: 2px;
-  height: 183px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
+
 
 .banner-texto {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2rem;
-  gap: 6rem;
+  gap: 2rem;
 }
 
-p {
-  color: #181c23;
+header p {
+  color: #181C23;
   font-family: "Fira Code", sans-serif;
-  /* Define a fonte padrão e uma alternativa */
-  font-size: clamp(16px, 4vw, 20px);
-  /* Ajusta o tamanho da fonte entre 16px e 20px */
+  font-size: clamp(6px, 5vw + 1px, 19px);
   font-style: normal;
   font-weight: 700;
-  line-height: 1.4;
-  /* Ajusta a altura da linha para melhor legibilidade */
-  letter-spacing: 2.2px;
-  margin: 0;
-  /* Remove margens padrão */
-  width: 601px;
-  height: 104px;
+  line-height: 1.3;
+  letter-spacing: 0.3px;
+  width: 550px;
+  height: 84px;
 }
+
+.parceria {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 
 h1 {
   width: 561px;
-  height: 144px;
+  color: #181C23;
+  font-family: "Fira Code";
+  font-size: clamp(40px, 4vw + 1px, 58px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+header span {
+  color: #181C23;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(24px, 6vw, 55px);
-  /* Ajusta o tamanho da fonte entre 24px e 55px */
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(14px, 1.5vw, 1px);
+  margin-bottom: 2rem;
+}
+
+header a {
+  width: 693px;
+  height: 21px;
+  color: #181C23;
+  font-family: "Fira Code", sans-serif;
+  font-size: clamp(16px, 3vw, 16px);
   font-style: normal;
   font-weight: 700;
   line-height: 1.2;
-  /* Ajusta a altura da linha para melhor legibilidade */
-  margin: 0;
-  /* Remove margens padrão */
-}
-
-span a {
-  width: 693px;
-  height: 21px;
-  color: #181c23;
-  font-family: "Fira Code", sans-serif;
-  font-size: clamp(12px, 3vw, 16px);
-  /* Ajusta o tamanho da fonte entre 12px e 16px */
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.2;
-  /* Ajusta a altura da linha para melhor legibilidade */
   letter-spacing: -0.48px;
 }
-.main {
-  text-align: start;
-  padding: 10% 5% 5% 10%;
-  border: #a6f750 solid 2px;
 
-
-}
-
-.h2-cliente {
-  color: #a6f750;
-  font-family: "Fira Code";
-  width: 673px;
-  height: 72px;
-  gap: 10px;
-}
-.texto-desconto {
-  color: #fff;
-width: 100%;
-  gap: 1rem;
-  font-family: "Fira Code";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.48px;
-  border: #a6f750 solid 1px;
-}
-.box {
-  border: #a6f750 solid 1px;
+.cliente {
   display: flex;
-  justify-items:center ;
-
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  gap: 14rem;
 }
-.cartao-logo {
-  color: #a6f750;
-}
-.texto-vatagem {
-  color: #fff;
 
-  font-family: "Fira Code";
-  font-size: 24px;
+.vantagens {
+  display: flex;
+  flex-direction: column;
+}
+
+.vantagens h2 {
+  color: #A6F750;
+  font-family: "Fira Code", sans-serif;
+  font-size: clamp(32px, 5vw, 48px); /* Ajuste de acordo com suas necessidades */
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.48px;
+  margin-bottom: 2rem;
 }
- .logo-santander {
-  border: #fff solid 1px;
-  width: 1039px;
-  height: 231px;
 
-  flex-shrink: 0;
-  /* background-image: url(../public/images/logosantander.png); */
+.vantagens p {
+  color: #FFF;
+  font-family: "Fira Code", sans-serif;
+  font-size: clamp(18px, 3vw, 44px); /* Ajuste de acordo com suas necessidades */
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
 }
-.cartao-santander{
-  border: #a6f750 solid 1px;
+
+.vantagens strong {
+  color: #FFF;
+  font-family: "Fira Code", sans-serif;
+  font-size: clamp(18px, 2.7vw, 48px); /* Ajuste de acordo com suas necessidades */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
+
+.cartao {
+  width: 25%;
+}
+.beneficios {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .logo-capa {

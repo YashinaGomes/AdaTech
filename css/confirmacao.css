@@ -11,9 +11,7 @@ body {
 
 .logo-capa img {
     width: 65%;
-    /* Ajusta a largura para ocupar 100% do contêiner pai */
     height: auto;
-    /* Mantém a proporção da imagem */
 }
 
 .intro {
@@ -26,18 +24,18 @@ body {
 
 .banner {
     background-image: url(../public/images/FundoBanner.png);
-    width: 100%;
-    /* Ajusta a largura para ocupar 100% do contêiner pai */
     height: 287px;
     background-size: cover;
-    /* Adiciona para garantir que a imagem cubra todo o banner */
     background-position: center;
-    /* Centraliza a imagem no banner */
+    margin-bottom: 3rem;
+
 }
 
 .linha {
-    width: 2px;
-    height: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 
@@ -46,189 +44,225 @@ body {
     justify-content: center;
     align-items: center;
     margin: 2rem;
-    gap: 6rem;
+    gap: 2rem;
 }
 
 header p {
-
     color: #181C23;
     font-family: "Fira Code", sans-serif;
-    /* Define a fonte padrão e uma alternativa */
-    font-size: clamp(16px, 4vw, 20px);
-    /* Ajusta o tamanho da fonte entre 16px e 20px */
+    font-size: clamp(6px, 5vw + 1px, 19px);
     font-style: normal;
     font-weight: 700;
-    line-height: 1.4;
-    /* Ajusta a altura da linha para melhor legibilidade */
-    letter-spacing: 2.2px;
-    margin: 0;
-    /* Remove margens padrão */
-    width: 601px;
-    height: 104px;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    width: 550px;
+    height: 84px;
 }
 
-header h1 {
+.parceria {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+h1 {
     width: 561px;
-    height: 144px;
-    font-family: "Fira Code", sans-serif;
-    font-size: clamp(24px, 6vw, 55px);
-    /* Ajusta o tamanho da fonte entre 24px e 55px */
+    color: #181C23;
+    font-family: "Fira Code";
+    font-size: clamp(40px, 4vw + 1px, 58px);
     font-style: normal;
     font-weight: 700;
-    line-height: 1.2;
-    /* Ajusta a altura da linha para melhor legibilidade */
-    margin: 0;
-    /* Remove margens padrão */
+    line-height: normal;
 
 }
 
-header span a {
+header span {
+    color: #181C23;
+    font-family: "Fira Code", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(14px, 1.5vw, 1px);
+    margin-bottom: 2rem;
+}
+
+header a {
     width: 693px;
     height: 21px;
     color: #181C23;
     font-family: "Fira Code", sans-serif;
-    font-size: clamp(12px, 3vw, 16px);
-    /* Ajusta o tamanho da fonte entre 12px e 16px */
+    font-size: clamp(16px, 3vw, 16px);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
-    /* Ajusta a altura da linha para melhor legibilidade */
     letter-spacing: -0.48px;
-
 }
 
 .confirmacao {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    gap: 3rem;
+
 
 }
 
 .confirmacao_interno {
-    width: 100%;
-    padding: 24px;
-    border: solid 4px #A6F750;
+    width: 1086px;
+    height: 667px;
     border-radius: 46px;
-    color: #A6F750;
-    font-family: "Fira Code";
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 450;
-    line-height: normal;
-    letter-spacing: 2.52px;
+    border: 4px solid #A6F750;
+    background: rgba(40, 44, 51, 0.00);
+    padding: 3rem;
+
 }
 
 .confirmacao_interno_logo {
     display: flex;
-    justify-content: center;
-    font-family: Ubuntu, sans-serif;
     align-items: baseline;
-    position: relative;
 }
 
 .confirmacao_interno_logo img {
-    width: 20%; 
-    height: auto;
-    margin-right: 10px;
-    position: absolute;
-    left: 0;
+    width: 235px;
+    height: 71px;
 }
 
 .confirmacao_interno_logo h3 {
-    flex: 1;
     text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #A6F750;
+    font-size: clamp(24px, 4vw, 36px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.52px;
 }
 
-.confirmacao_interno_detalhes {
+
+/* .confirmacao_interno_detalhes {
     padding: 20px;
-}
+} */
 
 .confirmacao_interno p {
-    width: 100%;
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: clamp(16px, 2.5vw, 24px);
+    /* Ajuste dinâmico do tamanho da fonte */
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    letter-spacing: 1.68px;
 }
 
 .confirmacao_interno p span {
-    color: white
+    color: #FFF;
+    font-family: "Fira Code";
+    font-size: clamp(16px, 2.5vw, 24px);
+    /* Ajuste dinâmico do tamanho da fonte */
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    letter-spacing: 1.68px;
 }
 
-.confirmacao_interno_botao_div {
+.bnt {
     display: flex;
     justify-content: center;
 }
 
-.confirmacao_interno_botao {
-    border-radius: 16px;
-    background: #A6F750;
+.bnt-link {
+    display: inline-block;
     width: 178px;
     height: 47px;
-    flex-shrink: 0;
-    color: black;
-    font-size: 22px;
-    font-family: "Fira Code";
+    border-radius: 16px;
+    border: 1px solid #A6F750;
+    background-color: #A6F750;
+    color: #282C33;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fira Code", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 1.6rem;
+    /* Espaçamento à direita do botão */
 }
 
-@media (min-width: 768px) {
-    .confirmacao_interno {
-        max-width: 1400px;
-    }
+.bnt-link:hover {
+    background-color: #00000000;
+    color: #FFF;
 }
-
-
-
-
 
 
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .logo-capa {
-        padding: 15px;
-    }
-
     .logo-capa img {
-        width: 80%;
-        /* Ajusta a largura da imagem para tablets */
-    }
-
-    .intro {
-        padding-top: 5rem;
-        /* Ajusta o padding-top para tablets */
+        width: 100%;
     }
 
     .banner {
-        height: 350px;
-        /* Ajusta a altura do banner para tablets */
+        height: 200px;
     }
 
     .banner-texto {
-        margin: 3rem;
-        gap: 4rem;
-        /* Ajusta o gap entre os itens para tablets */
+        margin: 1rem;
     }
 
-    p {
-        font-size: 16px;
-        /* Ajusta o tamanho da fonte para tablets */
-        width: 250px;
-        /* Ajusta a largura do parágrafo para tablets */
-        height: auto;
-        /* Ajusta a altura automaticamente para tablets */
+    .parceria {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
+
+
+    header p {
+
+        font-size: clamp(6px, 5vw + 1px, 16px);
+        width: 250px;
+        margin-bottom: 4rem;
+
+    }
+
 
     h1 {
-        width: 520px;
-        /* Ajusta a largura do título para tablets */
-        height: auto;
-        /* Ajusta a altura automaticamente para tablets */
-        margin-bottom: 2rem;
+        width: 390px;
+
     }
 
-    span a {
-        width: 500px;
-        /* Ajusta a largura do link para tablets */
-        font-size: 16px;
-        /* Ajusta o tamanho da fonte para tablets */
+    header span {
+        color: #181C23;
+        font-family: "Fira Code", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(12px, 1.5vw, 1px);
+        margin-bottom: -1rem;
     }
+
+    header a {
+        width: 693px;
+        height: 21px;
+        color: #181C23;
+        font-family: "Fira Code", sans-serif;
+        font-size: clamp(16px, 3vw, 16px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.48px;
+
+    }
+
+    .confirmacao_interno h3 {
+        font-size: 20px;
+    }
+
+    .confirmacao_interno_logo img {
+        width: 135px;
+        height: auto;
+    }
+
 }
 
 /* Estilos para celulares */
@@ -236,55 +270,66 @@ header span a {
     .logo-capa {
         padding: 20px;
         flex-direction: column;
-        /* Ajusta a direção do flex para celulares */
         align-items: center;
-        /* Centraliza o conteúdo para celulares */
     }
 
     .logo-capa img {
-        width: 80%;
-        /* Ajusta a largura da imagem para celulares */
+        width: 100%;
+        margin-top: 2rem;
     }
 
     .intro {
         padding-top: 2rem;
-        /* Ajusta o padding-top para celulares */
     }
 
     .banner {
-        height: 200px;
-        /* Ajusta a altura do banner para celulares */
+        height: 530px;
+    }
+
+    .linha {
+        display: none;
     }
 
     .banner-texto {
         display: flex;
         flex-direction: column;
-        /* Ajusta a direção do flex para celulares */
-        margin: 1rem;
-        gap: 1rem;
-        /* Ajusta o gap entre os itens para celulares */
+        gap: 2rem;
     }
 
-    p {
-        font-size: 12px;
-        /* Ajusta o tamanho da fonte para celulares */
-        width: 50%;
-        /* Ajusta a largura do parágrafo para celulares */
+    header p {
+        width: 100%;
         height: auto;
-        /* Ajusta a altura automaticamente para celulares */
     }
 
     h1 {
         width: 100%;
-        /* Ajusta a largura do título para celulares */
-        font-size: clamp(18px, 4vw, 40px);
-        /* Ajusta o tamanho da fonte para celulares */
     }
 
-    span a {
-        width: 100%;
-        /* Ajusta a largura do link para celulares */
-        font-size: clamp(10px, 2vw, 14px);
-        /* Ajusta o tamanho da fonte para celulares */
+    .nossos_produtos {
+        padding: 2rem;
     }
+
+    .produto {
+        margin-left: -1.6rem;
+    }
+
+    strong {
+        width: 200px;
+    }
+
+    main p {
+        width: 300px;
+
+    }
+
+    .confirmacao_interno h3 {
+        font-size: 14px;
+    }
+
+    .confirmacao_interno_logo img {
+        width: 135px;
+        height: auto;
+    }
+
+
 }
