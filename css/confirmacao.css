@@ -138,15 +138,10 @@ header a {
     letter-spacing: 2.52px;
 }
 
-
-/* .confirmacao_interno_detalhes {
-    padding: 20px;
-} */
-
 .confirmacao_interno p {
     color: #A6F750;
     font-family: "Fira Code";
-    font-size: clamp(16px, 2.5vw, 24px);
+    font-size: clamp(14px, 2.5vw, 24px);
     /* Ajuste dinâmico do tamanho da fonte */
     font-style: normal;
     font-weight: 450;
@@ -157,7 +152,7 @@ header a {
 .confirmacao_interno p span {
     color: #FFF;
     font-family: "Fira Code";
-    font-size: clamp(16px, 2.5vw, 24px);
+    font-size: clamp(14px, 2.5vw, 24px);
     /* Ajuste dinâmico do tamanho da fonte */
     font-style: normal;
     font-weight: 450;
@@ -263,6 +258,11 @@ header a {
         height: auto;
     }
 
+    .confirmacao_interno {
+        width: 856px;
+        height: 667px;
+    }
+
 }
 
 /* Estilos para celulares */
@@ -331,5 +331,9 @@ header a {
         height: auto;
     }
 
+    .confirmacao_interno {
+        width: 376px;
+        height: 767px;
+    }
 
 }
