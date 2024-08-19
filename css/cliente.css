@@ -1,5 +1,5 @@
 body {
-  background: #181C23;
+  background: #181c23;
 }
 
 .logo-capa {
@@ -19,7 +19,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
-
 }
 
 .banner {
@@ -28,7 +27,6 @@ body {
   background-size: cover;
   background-position: center;
   margin-bottom: 3rem;
-
 }
 
 .linha {
@@ -37,7 +35,6 @@ body {
   align-items: center;
   margin-top: 1rem;
 }
-
 
 .banner-texto {
   display: flex;
@@ -48,7 +45,7 @@ body {
 }
 
 header p {
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-size: clamp(6px, 5vw + 1px, 19px);
   font-style: normal;
@@ -65,20 +62,18 @@ header p {
   gap: 3rem;
 }
 
-
 h1 {
   width: 561px;
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code";
   font-size: clamp(40px, 4vw + 1px, 58px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
 }
 
 header span {
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -89,7 +84,7 @@ header span {
 header a {
   width: 693px;
   height: 21px;
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-size: clamp(16px, 3vw, 16px);
   font-style: normal;
@@ -112,9 +107,13 @@ header a {
 }
 
 .vantagens h2 {
-  color: #A6F750;
+  color: #a6f750;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(32px, 5vw, 48px); /* Ajuste de acordo com suas necessidades */
+  font-size: clamp(
+    32px,
+    5vw,
+    48px
+  ); /* Ajuste de acordo com suas necessidades */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -122,18 +121,26 @@ header a {
 }
 
 .vantagens p {
-  color: #FFF;
+  color: #fff;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(18px, 3vw, 44px); /* Ajuste de acordo com suas necessidades */
+  font-size: clamp(
+    18px,
+    3vw,
+    44px
+  ); /* Ajuste de acordo com suas necessidades */
   font-style: normal;
   font-weight: 450;
   line-height: normal;
 }
 
 .vantagens strong {
-  color: #FFF;
+  color: #fff;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(18px, 2.7vw, 48px); /* Ajuste de acordo com suas necessidades */
+  font-size: clamp(
+    18px,
+    2.7vw,
+    48px
+  ); /* Ajuste de acordo com suas necessidades */
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -146,7 +153,6 @@ header a {
   display: flex;
   flex-direction: column;
 }
-
 
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -258,7 +264,7 @@ header a {
   }
 }
 body {
-  background: #181C23;
+  background: #181c23;
 }
 
 .logo-capa {
@@ -278,7 +284,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
-
 }
 
 .banner {
@@ -287,7 +292,6 @@ body {
   background-size: cover;
   background-position: center;
   margin-bottom: 3rem;
-
 }
 
 .linha {
@@ -296,7 +300,6 @@ body {
   align-items: center;
   margin-top: 1rem;
 }
-
 
 .banner-texto {
   display: flex;
@@ -307,7 +310,7 @@ body {
 }
 
 header p {
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-size: clamp(6px, 5vw + 1px, 19px);
   font-style: normal;
@@ -324,20 +327,18 @@ header p {
   gap: 3rem;
 }
 
-
 h1 {
   width: 561px;
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code";
   font-size: clamp(40px, 4vw + 1px, 58px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
 }
 
 header span {
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -348,7 +349,7 @@ header span {
 header a {
   width: 693px;
   height: 21px;
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-size: clamp(16px, 3vw, 16px);
   font-style: normal;
@@ -360,25 +361,23 @@ header a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem;
+  padding: 5rem;
   gap: 14rem;
-
 }
 .vatagem {
   display: flex;
   flex-direction: column;
 }
 .vantagem h2 {
-  color: #A6F750;
+  color: #a6f750;
   font-family: "Fira Code";
   font-style: normal;
   font-weight: 700;
   margin-bottom: 2rem;
   font-size: clamp(32px, 5vw, 48px);
-
 }
 .vantagem p {
-  color: #FFF;
+  color: #fff;
   font-family: "Fira Code";
   font-size: clamp(18px, 3vw, 44px);
   font-style: normal;
@@ -386,21 +385,85 @@ header a {
   line-height: normal;
 }
 .vantagem strong {
-  color: #FFF;
+  color: #fff;
   font-family: "Fira Code";
   font-size: clamp(18px, 2.7vw, 48px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
- .cartao {
+.cartao {
   width: 25%;
- } 
- .benificios{
+}
+.benificios {
   display: flex;
   flex-direction: column;
- }
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 14rem;
+  
+}
+.beneficios-cliente h2 {
+  color: #a6f750;
+  font-family: "Fira Code";
+  font-size: clamp(32px, 5vw, 48px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0rem 5rem 0rem 5rem;
+}
+.beneficios-cliente p {
+  color: #fff;
 
+  font-family: "Fira Code";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding: 0rem 5rem 1rem 5rem;
+  margin-top: 1rem;
+}
+.beneficios-cliente strong {
+  color: #fff;
+display: block;
+  font-family: "Fira Code";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem 5rem 0rem 5rem;
+  
+}
+.beneficios-cliente span {
+  color: #a6f750;
+  font-family: "Fira Code";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.beneficios-cliente a {
+  color: #fff;
+  font-family: "Fira Code";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: none;
+  
+}
+.logo-santander img {
+width: 1039px;
+height: 231px;
+flex-shrink: 0;
+display: flex;
+
+padding: 1rem 5rem 0rem 5rem;
+margin-bottom: 2rem;
+
+}
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
   .logo-capa {
