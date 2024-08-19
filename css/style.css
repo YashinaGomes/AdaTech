@@ -14,33 +14,6 @@ body {
     height: auto;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    margin-left: 2rem;
-}
-
-nav ul li a {
-    color: #A6F750;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: clamp(16px, 2vw, 24px);
-    /* Fonte ajustável com base no tamanho da tela */
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-    /* Adiciona sublinhado ao passar o mouse */
-}
-
 .intro {
     display: flex;
     justify-content: center;
@@ -330,6 +303,7 @@ main p {
     width: 321px;
     height: 121px;
     padding: 1rem;
+    margin-top: 3.3rem;
 
 }
 
