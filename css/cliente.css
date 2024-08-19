@@ -376,7 +376,7 @@ header a {
   margin-bottom: 2rem;
   font-size: clamp(32px, 5vw, 48px);
 }
-.vantagem p {
+.vantagens p {
   color: #fff;
   font-family: "Fira Code";
   font-size: clamp(18px, 3vw, 44px);
@@ -384,7 +384,7 @@ header a {
   font-weight: 450;
   line-height: normal;
 }
-.vantagem strong {
+.vantagens strong {
   color: #fff;
   font-family: "Fira Code";
   font-size: clamp(18px, 2.7vw, 48px);
@@ -402,7 +402,6 @@ header a {
   align-items: center;
   padding: 5rem;
   gap: 14rem;
-  
 }
 .beneficios-cliente h2 {
   color: #a6f750;
@@ -427,14 +426,13 @@ header a {
 }
 .beneficios-cliente strong {
   color: #fff;
-display: block;
+  display: block;
   font-family: "Fira Code";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   padding: 1rem 5rem 0rem 5rem;
-  
 }
 .beneficios-cliente span {
   color: #a6f750;
@@ -452,17 +450,15 @@ display: block;
   font-weight: 700;
   line-height: normal;
   text-decoration-line: none;
-  
 }
 .logo-santander img {
-width: 1039px;
-height: 231px;
-flex-shrink: 0;
-display: flex;
+  width: 1039px;
+  height: 231px;
+  flex-shrink: 0;
+  display: flex;
 
-padding: 1rem 5rem 0rem 5rem;
-margin-bottom: 2rem;
-
+  padding: 1rem 5rem 0rem 5rem;
+  margin-bottom: 2rem;
 }
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -514,6 +510,45 @@ margin-bottom: 2rem;
     font-size: 16px;
     /* Ajusta o tamanho da fonte para tablets */
   }
+
+  .cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .beneficios-cliente p {
+    color: #fff;
+    display: flex;
+    width: auto;
+  }
+  .cliente {
+    display: block;
+    padding: 5rem;
+   
+  }
+  .cartao img {
+    display: flex;
+    width: auto;
+  }
+  .beneficios-cliente h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 2rem;
+  }
+  .logo-santander img {
+    width: auto;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+   
+  }
+
 }
 
 /* Estilos para celulares */
@@ -572,4 +607,25 @@ margin-bottom: 2rem;
     font-size: clamp(10px, 2vw, 14px);
     /* Ajusta o tamanho da fonte para celulares */
   }
+  .cliente {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .beneficios-cliente p {
+    color: #fff;
+    display: flex;
+    width: auto;
+  }
+  .cartao img {
+    display: flex;
+    width: auto;
+  }
+  
+  /* .beneficios-cliente strong{
+    font-size: clamp(32px, 5vw, 48px)
+  } */
+ 
 }
