@@ -14,6 +14,33 @@ body {
     height: auto;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: #A6F750;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: clamp(16px, 2vw, 24px);
+    /* Fonte ajustável com base no tamanho da tela */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
 .intro {
     display: flex;
     justify-content: center;
@@ -136,8 +163,10 @@ main p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 5rem;
     padding: 2rem;
-    max-width: 1440px; /* Define uma largura máxima para a grid */
-    margin: 0 auto; /* Centraliza a grid horizontalmente */
+    max-width: 1440px;
+    /* Define uma largura máxima para a grid */
+    margin: 0 auto;
+    /* Centraliza a grid horizontalmente */
 }
 
 
@@ -542,17 +571,17 @@ main p {
     }
 
     .logo {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
     }
 
     .logo img {
         width: 100%;
         height: 141px;
         padding: 1rem;
-    
+
     }
 
     .container-footer {
@@ -568,15 +597,15 @@ main p {
         height: 275px;
         background: #A6F750;
         padding: 2rem;
-        
-    }
-    
-    .btn-contato {
-        width: 250px;
-        
+
     }
 
-    .copyright{
+    .btn-contato {
+        width: 250px;
+
+    }
+
+    .copyright {
         display: flex;
         flex-direction: column;
     }
