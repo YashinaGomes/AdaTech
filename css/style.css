@@ -293,6 +293,36 @@ main p {
     height: 253px;
 }
 
+.bnt-saiba {
+    display: inline-block; 
+    width: 262px;
+    height: 44px;
+    border-radius: 27px;
+    border: 1px solid #A6F750;
+    background: #A6F750;
+    text-align: center; 
+    color: #282C33;
+    font-family: "Fira Code"; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-weight: 600;
+    line-height: normal; 
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 1.6rem;
+    margin: 2rem;
+    padding: 0.4rem;
+    
+}
+
+.bnt-saiba:hover {
+    background-color: transparent; 
+    color: #FFF;
+}
+
+
+
 .container-footer {
     display: flex;
     justify-content: center;
