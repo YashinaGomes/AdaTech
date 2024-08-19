@@ -524,9 +524,9 @@ header a {
     display: flex;
     width: auto;
   }
-  .cliente {
+  .vantagens {
     display: block;
-    padding: 5rem;
+    padding: 2rem;
    
   }
   .cartao img {
@@ -624,8 +624,8 @@ header a {
     width: auto;
   }
   
-  /* .beneficios-cliente strong{
+   .beneficios-cliente strong{
     font-size: clamp(32px, 5vw, 48px)
-  } */
+  } 
  
 }
