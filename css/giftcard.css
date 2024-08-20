@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --color-green: #A6F750;
+    --color-gren-opacity: #a6f75075;
+    --color-black: #000000;
+}
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    color: var(--color-green);
+}
+
+body {
+    background: #181C23;
+}
+
+.logo-capa {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-capa img {
+    width: 65%;
+    height: auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+
+}
+
+.banner {
+    background-image: url(../public/images/FundoBanner.png);
+    width: 100%;
+    height: 287px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3rem;
+
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.banner-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+header p {
+    color: #181C23;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(6px, 5vw + 1px, 19px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    width: 550px;
+    height: 84px;
+}
+
+.parceria {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+h1 {
+    width: 561px;
+    color: #181C23;
+    font-family: "Fira Code";
+    font-size: clamp(40px, 4vw + 1px, 58px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+header span {
+    color: #181C23;
+    font-family: "Fira Code", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(13px, 1.5vw, 1px);
+}
+
+header a {
+    width: 693px;
+    height: 21px;
+    color: #181C23;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(16px, 3vw, 14px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.48px;
+}
+
+.container-giftcard {
+    border-radius: 32px;
+    border-top: 2px solid #A6F750;
+    border-left: 2px solid #A6F750;
+    border-bottom: 2px solid #A6F750;
+    background: linear-gradient(0deg, rgba(40, 44, 51, 0.00) 0%, rgba(40, 44, 51, 0.00) 100%);
+    margin: 0 auto;
+    display: flex;
+    padding: 60px;
+}
+
+
+.gift-card {
+    width: 70%;
+    border-right: 1px solid var(--color-green);
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.formulario {
+    width: 50%;
+    padding-right: 60px;
+}
+
+.giftcard h2 {
+    text-align: center;
+    font-size: 41px;
+}
+
+.giftcard img {
+    margin-top: 2rem;
+    width: 463px;
+    height: 258px;
+    margin-bottom: 2rem;
+}
+
+.desc-gift p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.formulario {
+    padding-left: 20px;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 41px;
+    margin-bottom: 100px;
+}
+
+.item-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+#quantidade,
+#nome,
+#email,
+#endereco,
+#cep {
+    height: 26px;
+    border: 1px solid var(--color-green);
+    background-color: #181C23;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-left: 10px;
+    color: #FFF;
+}
+
+input::placeholder {
+    font-weight: 200;
+    color: var(--color-gren-opacity)
+}
+
+.checkboxes {
+    margin-top: 10px;
+}
+
+.formulario h3 {
+    margin-top: 30px;
+}
+
+.form-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.form-checkbox label {
+    padding-left: 10px;
+}
+
+.form-checkbox input {
+    height: 14px;
+    width: 14px;
+    border: 1px solid var(--color-green);
+}
+
+.publi p {
+    font-size: 13px;
+}
+
+.img-desconto {
+    margin-top: 20px;
+}
+
+.formulario button {
+    background-color: var(--color-green);
+    color: black;
+    width: 100%;
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 9rem;
+}
+
+.vantagens {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vantagens h2 {
+    width: 473px;
+    color: #A6F750;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(9px, 8vw, 38px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.vantagens p {
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(23px, 3vw, 44px);
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.vantagens span {
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(28px, 2.7vw, 48px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cartao img {
+    width: 334px;
+    height: 253px;
+}
+
+.bnt-saiba {
+    display: inline-block;
+    width: 262px;
+    height: 44px;
+    border-radius: 27px;
+    border: 1px solid #A6F750;
+    background: #A6F750;
+    text-align: center;
+    color: #282C33;
+    font-family: "Fira Code";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 1.6rem;
+    margin: 2rem;
+    padding: 0.4rem;
+
+}
+
+.bnt-saiba:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 951px;
+
+}
+
+.logo img {
+    width: 401px;
+    height: auto;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 185px;
+    background: #A6F750;
+    padding: 2rem;
+}
+
+.contato p {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 450;
+    line-height: normal;
+    font-size: clamp(18px, 3vw, 30px);
+}
+
+
+.contato strong {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 700;
+    line-height: normal;
+    font-size: clamp(18px, 2.5vw, 30px);
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-black);
+}
+
+.copyright p {
+    color: #181C23;
+    font-family: "Fira Code";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3rem;
+    margin-right: 1rem;
+
+}
+
+.btn-contato {
+    height: 49px;
+    background-color: #282C33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: clamp(14px, 2.5vw, 16px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-contato:hover {
+    border: 2px solid var(--color-black);
+    background-color: var(--color-green);
+    color: var(--color-black);
+}
+
+.btn-contato i {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo-capa img {
+        width: 100%;
+    }
+
+    .banner {
+        height: 230px;
+    }
+
+    .banner-texto {
+        margin: 1rem;
+    }
+
+    .parceria {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+
+    header p {
+
+        font-size: clamp(6px, 5vw + 1px, 16px);
+        width: 250px;
+        margin-bottom: 4rem;
+    }
+
+    h1 {
+        width: 390px;
+    }
+
+    header span {
+        color: #181C23;
+        font-family: "Fira Code", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: clamp(12px, 1.5vw, 1px);
+        margin-bottom: -1rem;
+    }
+
+    header a {
+        width: 693px;
+        height: 21px;
+        color: #181C23;
+        font-family: "Fira Code", sans-serif;
+        font-size: clamp(16px, 3vw, 16px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.48px;
+
+    }
+
+    .nossos_produtos {
+        width: 878px;
+    }
+
+    .cliente {
+        gap: 2rem;
+    }
+
+    .cartao img {
+        width: 304px;
+        height: 253px;
+    }
+
+    .logo {
+        width: 251px;
+
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 183px;
+        background: #A6F750;
+        padding: 2rem;
+    }
+
+    .logo img {
+        width: 201px;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+}
+
+/* Estilos para celulares */
+@media (max-width: 767px) {
+    .logo-capa {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-capa img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .intro {
+        padding-top: 2rem;
+    }
+
+    .banner {
+        height: 530px;
+    }
+
+    .linha {
+        display: none;
+    }
+
+    .banner-texto {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    header p {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .nossos_produtos {
+        width: 20px;
+        padding: 2rem;
+    }
+
+    .produto {
+        margin-left: -1.6rem;
+    }
+
+    main p {
+        width: 300px;
+    }
+
+    .cliente {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vantagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* Alinhamento vertical */
+        text-align: center;
+
+        padding: 0 5%;
+        /* Adiciona espaçamento nas laterais */
+        box-sizing: border-box;
+        /* Garante que o padding seja incluído na largura total */
+    }
+
+    .vantagens h2 {
+        width: 100%;
+        word-wrap: break-word;
+        /* Quebra o texto longo em várias linhas se necessário */
+    }
+
+    .vantagens p,
+    .vantagens span {
+        margin: 10px;
+        /* Espaçamento entre os elementos */
+
+    }
+
+    .cartao {
+        text-align: center;
+    }
+
+    .cartao img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 351px;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 275px;
+        background: #A6F750;
+        padding: 2rem;
+
+    }
+
+    .btn-contato {
+        width: 250px;
+
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

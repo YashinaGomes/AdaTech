@@ -1,64 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gift Card - Parceria AdaTech + Santander</title>
+    <title>Livros - Parceria AdaTech + Santander</title>
     <link rel="stylesheet" href="css/giftcard.css">
+    <link rel="stylesheet" href="css/reset.css">
+
 </head>
+
 <body>
     <header>
-        <h1>Gift Card</h1>
+        <div class="logo-capa">
+            <img src="public/images/LogoAdaTech+Santander.png" alt="Logo AdaTech" class="logo">
+        </div>
+        <section class="intro">
+            <div class="banner">
+                <div class="banner-texto">
+                    <div class="desconto">
+                        <p>Descontos exclusivos em diversos produtos!<br>Se você é aluno da AdaTech ou cliente
+                            Santander,
+                            aproveite 15% de desconto na compra de cada produto.</p>
+                    </div>
+                    <div class="linha">
+                        <img src="public/images/linha_banner.png" alt="Logo AdaTech" class="linha_preta">
+                    </div>
+                    <div class="parceria">
+                        <div class="ada">
+                            <h1>Parceria AdaTech + Santander</h1>
+                        </div>
+                        <div class="santander">
+                            <span>
+                                Não é cliente Santander? <a href="adesao.html">Clique aqui</a> para se tornar um cliente
+                                e aproveitar os descontos exclusivos.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
     <main>
-        <article class="produto-detalhe">
-            <img src="img/produto1.jpg" alt="Gift Card">
-            <p>Escolha o valor do seu Gift Card:</p>
-            <form>
-                <label for="valor">Valor do Gift Card:</label>
-                <select id="valor" name="valor">
-                    <option value="50">R$50,00</option>
-                    <option value="100">R$100,00</option>
-                    <option value="150">R$150,00</option>
-                    <option value="200">R$200,00</option>
-                </select>
-                
-                <label for="quantidade">Quantidade:</label>
-                <input type="number" id="quantidade" name="quantidade" min="1" max="10">
-                
-                <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" required>
-                
-                <label for="pagamento">Forma de Pagamento:</label>
-                <select id="pagamento" name="pagamento">
-                    <option value="cartao">Cartão de Crédito</option>
-                    <option value="boleto">Boleto Bancário</option>
-                </select>
+        <section class="produto-giftcard">
+            <div class="container-giftcard">
+                <div class="gift-card">
+                    <h2>Gift Cards AdaTech Store</h2>
+                    <div class="giftcard">
+                        <img src="public/images/giftcard.png" alt="Giftcard">
+                        <div class="desc-gift">
+                            <p><strong>Descrição do produto:</strong> Os nossos Gift Cards são a solução perfeita para
+                                quem deseja presentear alguém com flexibilidade e liberdade de escolha. Disponíveis em
+                                diversos valores, eles permitem que o destinatário escolha exatamente o que deseja
+                                comprar em nossa loja, tornando o presente ainda mais especial e personalizado.</p>
+                            <br>
+                            <p><strong>Benefícios:</strong>
+                                <strong>Flexibilidade:</strong> O presenteado pode escolher qualquer produto disponível
+                                em nossa loja,
+                                garantindo que o presente seja exatamente o que ele deseja.
+                                <strong>Desconto Exclusivo:</strong> 15% de desconto para alunos da AdaTech e clientes
+                                Santander na
+                                compra de Gift Cards.
+                                <strong>Facilidade de Uso:</strong> Simples de adquirir e utilizar, nossos Gift Cards
+                                são enviados por
+                                e-mail após a compra e podem ser usados diretamente em nossa plataforma.
+                            </p>
+                            <br>
+                            <p><strong>Como Adquirir:</strong> Escolha o valor desejado para o Gift Card e adicione-o ao
+                                seu carrinho. Na finalização da compra, o Gift Card será enviado ao e-mail fornecido. Se
+                                você deseja enviar o Gift Card como presente, informe o e-mail do destinatário e uma
+                                mensagem personalizada, se desejar.
+                                Aproveite os Descontos: Não se esqueça de aplicar o desconto de 15% para alunos da
+                                AdaTech e clientes Santander durante a compra dos Gift Cards. A oferta é válida para
+                                todos os valores dos Gift Cards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="formulario">
+                    <h2>Formulário de Compra</h2>
+                    <div class="item-form">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" placeholder="Selecione a quantidade ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome completo ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" placeholder="Digite seu E-mail ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" placeholder="Digite seu e-mail ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" placeholder="Digite seu CEP ...">
+                    </div>
+                    <h3>Selecione a forma de pagamento</h3>
+                    <div class="checkboxes">
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="credito"><label for="credito">Cartão de crédito</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="boleto"><label for="boleto">Boleto Bancário</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Pix</label>
+                        </div>
+                    </div>
+                    <div class="publi">
+                        <p style="color: #ebebeb;">Compre com o cartão Santander e ganhe</p>
+                        <p><strong style="color: #FFFFFF;">15% de desconto</strong></p>
+                    </div>
+                    <div>
+                        <div class="item-form">
+                            <label for="desconto">CUPOM DE DESCONTO (AdaTech 15%)</label>
+                            <input type="text" id="endereco" placeholder="Digite o código do seu cupom ...">
+                        </div>
+                        <div class="img-desconto">
+                            <img src="public/images/Desconto.png" alt="Imagem com o cupom de desconto">
+                        </div>
+                    </div>
+                    <button type="submit">Finalizar compra</button>
+                </div>
+            </div>
+        </section>
 
-                <button type="submit">Comprar</button>
-            </form>
-        </article>
+
+
+        <section class="cliente">
+            <div class="vantagens">
+                <h2>Ainda não é cliente?</h2>
+                <p>Vantagens de Ser um</p>
+                <span>Cliente Santander na AdaTech</span>
+                <div class="saiba-mais">
+                    <a href="cliente.html" class="bnt-saiba">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="public/images/cartao.png" alt="Foto do Cartão Santander">
+            </div>
+        </section>
+
     </main>
-
-    <aside>
-        <p>Benefícios de ser cliente Santander:</p>
-        <ul>
-            <li>15% de desconto em todos os produtos da AdaTech</li>
-            <li>Acesso a eventos exclusivos</li>
-            <li>Condições especiais em serviços financeiros</li>
-        </ul>
-        <p><a href="adesao.html">Clique aqui</a> para aderir ao cartão Santander e aproveitar os benefícios.</p>
-    </aside>
-
     <footer>
-        <p>&copy; 2024 AdaTech + Santander. Todos os direitos reservados.</p>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="public/images/LogoFooter.png" alt="Logo da AdaTech">
+            </div>
+            <div class="contato">
+                <aside>
+                    <p>Precisa de ajuda?</p>
+                    <strong>Converse com a AdaTech pelo WhatsApp.</strong>
+                </aside>
+                <div class="copyright">
+                    <div class="btn-contato">
+                        <i>
+                            <img src="public/images/whatsapp.png" alt="WhatsApp">
+                        </i>
+                        Falar com o time agora
+                    </div>
+                    <p>Copyright © 2024 AdaTech.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

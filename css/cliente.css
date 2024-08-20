@@ -1,5 +1,5 @@
 body {
-  background: #181C23;
+  background: #181c23;
 }
 
 .logo-capa {
@@ -19,7 +19,6 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 6rem;
-
 }
 
 .banner {
@@ -28,7 +27,6 @@ body {
   background-size: cover;
   background-position: center;
   margin-bottom: 3rem;
-
 }
 
 .linha {
@@ -37,7 +35,6 @@ body {
   align-items: center;
   margin-top: 1rem;
 }
-
 
 .banner-texto {
   display: flex;
@@ -48,7 +45,7 @@ body {
 }
 
 header p {
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-size: clamp(6px, 5vw + 1px, 19px);
   font-style: normal;
@@ -65,20 +62,18 @@ header p {
   gap: 3rem;
 }
 
-
 h1 {
   width: 561px;
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code";
   font-size: clamp(40px, 4vw + 1px, 58px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
 }
 
 header span {
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -89,7 +84,7 @@ header span {
 header a {
   width: 693px;
   height: 21px;
-  color: #181C23;
+  color: #181c23;
   font-family: "Fira Code", sans-serif;
   font-size: clamp(16px, 3vw, 16px);
   font-style: normal;
@@ -100,10 +95,9 @@ header a {
 
 .cliente {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 6rem;
-  gap: 14rem;
+  gap: 2rem;
 }
 
 .vantagens {
@@ -112,9 +106,9 @@ header a {
 }
 
 .vantagens h2 {
-  color: #A6F750;
+  color: #a6f750;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(32px, 5vw, 48px); /* Ajuste de acordo com suas necessidades */
+  font-size: clamp(32px, 5vw, 48px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -122,138 +116,438 @@ header a {
 }
 
 .vantagens p {
-  color: #FFF;
+  color: #fff;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(18px, 3vw, 44px); /* Ajuste de acordo com suas necessidades */
+  font-size: clamp(18px, 3vw, 44px);
   font-style: normal;
   font-weight: 450;
   line-height: normal;
 }
 
 .vantagens strong {
-  color: #FFF;
+  color: #fff;
   font-family: "Fira Code", sans-serif;
-  font-size: clamp(18px, 2.7vw, 48px); /* Ajuste de acordo com suas necessidades */
+  font-size: clamp(18px, 2.7vw, 48px);
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
 .cartao {
-  width: 25%;
+  width: 30%;
 }
-.beneficios {
+
+.benificios {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  gap: 14rem;
+}
+
+.beneficios-cliente h2 {
+  color: #a6f750;
+  font-family: "Fira Code";
+  font-size: clamp(32px, 5vw, 48px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+.beneficios-cliente p {
+  color: #fff;
+
+  font-family: "Fira Code";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  padding: 0rem 5rem 1rem 5rem;
+  margin-top: 1rem;
+}
+
+.beneficios-cliente strong {
+  color: #fff;
+  display: block;
+  font-family: "Fira Code";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem 5rem 0rem 5rem;
+}
+
+.beneficios-cliente span {
+  color: #a6f750;
+  font-family: "Fira Code";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.beneficios-cliente a {
+  color: #fff;
+  font-family: "Fira Code";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: none;
+}
+
+.logo-santander {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-santander img {
+  width: 1039px;
+  height: 231px;
+  flex-shrink: 0;
+  padding: 1rem 5rem 0rem 5rem;
+  margin-bottom: 2rem;
+}
+
+.vantagens span {
+  color: #fff;
+  font-family: "Fira Code", sans-serif;
+  font-size: clamp(28px, 2.7vw, 48px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cartao img {
+  width: 334px;
+  height: 253px;
 }
 
 
-/* Estilos para tablets */
+.bnt-saiba {
+  display: inline-block;
+  width: 262px;
+  height: 44px;
+  border-radius: 27px;
+  border: 1px solid #a6f750;
+  background: #a6f750;
+  text-align: center;
+  color: #282c33;
+  font-family: "Fira Code";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 1.6rem;
+  margin: 2rem;
+  padding: 0.4rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 951px;
+}
+
+.logo img {
+  width: 401px;
+  height: auto;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 185px;
+  background: #a6f750;
+  padding: 2rem;
+}
+
+.contato p {
+  color: #282c33;
+  font-family: "Fira Code";
+  font-weight: 450;
+  line-height: normal;
+  font-size: clamp(18px, 3vw, 30px);
+}
+
+.contato strong {
+  color: #282c33;
+  font-family: "Fira Code";
+  font-weight: 700;
+  line-height: normal;
+  font-size: clamp(18px, 2.5vw, 30px);
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-black);
+}
+
+.copyright p {
+  color: #181c23;
+  font-family: "Fira Code";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 3rem;
+  margin-right: 1rem;
+}
+
+.btn-contato {
+  height: 49px;
+  background-color: #282c33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  color: #a6f750;
+  font-family: "Fira Code";
+  font-size: clamp(14px, 2.5vw, 16px);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-contato:hover {
+  border: 2px solid var(--color-black);
+  background-color: var(--color-green);
+  color: var(--color-black);
+}
+
+.btn-contato i {
+  width: 15px;
+  height: 15px;
+  margin-right: 6px;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
-  .logo-capa {
-    padding: 15px;
-  }
-
   .logo-capa img {
-    width: 80%;
-    /* Ajusta a largura da imagem para tablets */
-  }
-
-  .intro {
-    padding-top: 5rem;
-    /* Ajusta o padding-top para tablets */
+    width: 100%;
   }
 
   .banner {
-    height: 350px;
-    /* Ajusta a altura do banner para tablets */
+    height: 230px;
   }
 
   .banner-texto {
-    margin: 3rem;
-    gap: 4rem;
-    /* Ajusta o gap entre os itens para tablets */
+    margin: 1rem;
   }
 
-  p {
-    font-size: 16px;
-    /* Ajusta o tamanho da fonte para tablets */
+  .parceria {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+
+  header p {
+
+    font-size: clamp(6px, 5vw + 1px, 16px);
     width: 250px;
-    /* Ajusta a largura do parágrafo para tablets */
-    height: auto;
-    /* Ajusta a altura automaticamente para tablets */
+    margin-bottom: 4rem;
   }
 
   h1 {
-    width: 520px;
-    /* Ajusta a largura do título para tablets */
-    height: auto;
-    /* Ajusta a altura automaticamente para tablets */
-    margin-bottom: 2rem;
+    width: 390px;
   }
 
-  span a {
-    width: 500px;
-    /* Ajusta a largura do link para tablets */
-    font-size: 16px;
-    /* Ajusta o tamanho da fonte para tablets */
+  header span {
+    color: #181C23;
+    font-family: "Fira Code", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(12px, 1.5vw, 1px);
+    margin-bottom: -1rem;
   }
+
+  header a {
+    width: 693px;
+    height: 21px;
+    color: #181C23;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(16px, 3vw, 16px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.48px;
+
+  }
+
+
+  .cliente {
+    gap: 2rem;
+  }
+
+  .cartao img {
+    width: 304px;
+    height: 253px;
+  }
+
+  .logo {
+    width: 251px;
+
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 183px;
+    background: #A6F750;
+    padding: 2rem;
+  }
+
 }
 
-/* Estilos para celulares */
 @media (max-width: 767px) {
   .logo-capa {
     padding: 20px;
     flex-direction: column;
-    /* Ajusta a direção do flex para celulares */
     align-items: center;
-    /* Centraliza o conteúdo para celulares */
   }
 
   .logo-capa img {
-    width: 80%;
-    /* Ajusta a largura da imagem para celulares */
+    width: 100%;
+    margin-top: 2rem;
   }
 
   .intro {
     padding-top: 2rem;
-    /* Ajusta o padding-top para celulares */
   }
 
   .banner {
-    height: 200px;
-    /* Ajusta a altura do banner para celulares */
+    height: 530px;
+  }
+
+  .linha {
+    display: none;
   }
 
   .banner-texto {
     display: flex;
     flex-direction: column;
-    /* Ajusta a direção do flex para celulares */
-    margin: 1rem;
-    gap: 1rem;
-    /* Ajusta o gap entre os itens para celulares */
+    gap: 2rem;
   }
 
-  p {
-    font-size: 12px;
-    /* Ajusta o tamanho da fonte para celulares */
-    width: 50%;
-    /* Ajusta a largura do parágrafo para celulares */
+  header p {
+    width: 100%;
     height: auto;
-    /* Ajusta a altura automaticamente para celulares */
   }
 
   h1 {
     width: 100%;
-    /* Ajusta a largura do título para celulares */
-    font-size: clamp(18px, 4vw, 40px);
-    /* Ajusta o tamanho da fonte para celulares */
   }
 
-  span a {
-    width: 100%;
-    /* Ajusta a largura do link para celulares */
-    font-size: clamp(10px, 2vw, 14px);
-    /* Ajusta o tamanho da fonte para celulares */
+  .cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+  .vantagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Alinhamento vertical */
+    text-align: center;
+
+    padding: 0 5%;
+    /* Adiciona espaçamento nas laterais */
+    box-sizing: border-box;
+    /* Garante que o padding seja incluído na largura total */
+  }
+
+  .vantagens h2 {
+    width: 100%;
+    word-wrap: break-word;
+    /* Quebra o texto longo em várias linhas se necessário */
+  }
+
+  .vantagens p,
+  .vantagens span {
+    margin: 10px;
+    /* Espaçamento entre os elementos */
+
+  }
+
+  .cartao {
+    text-align: center;
+  }
+
+  .cartao img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logo-santander {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-santander img {
+    width: 438px;
+    height: 97px;
+
+
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 351px;
+    height: auto;
+    margin-left: 1rem;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 275px;
+    background: #A6F750;
+    padding: 2rem;
+
+  }
+
+  .btn-contato {
+    width: 250px;
+
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
