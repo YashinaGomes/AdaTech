@@ -132,6 +132,17 @@ footer .container-livros{
     margin-top: 40px;
 }
 
+.desc-livro b{
+    color: var(--color-green);
+    width: 100%;
+}
+
+.desc-livro p{
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
 .footer-img{
     width: 30%;
 }
@@ -227,7 +238,6 @@ footer .container-livros{
     flex-direction: column;
     justify-content: center;
 }
-
 @media(min-width: 320px) and (max-width: 1024px) {
     .container-livros{
         flex-direction: column;
