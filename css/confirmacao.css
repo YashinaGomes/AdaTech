@@ -144,6 +144,10 @@ header span a {
     padding: 20px;
 }
 
+.confirmacao_interno_detalhes p {
+    color: #A6F750;
+}
+
 .confirmacao_interno p {
     width: 100%;
 }
