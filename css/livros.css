@@ -1,73 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-:root{
+:root {
     --color-green: #A6F750;
-    --color-gren-opacity:#a6f75075;
+    --color-gren-opacity: #a6f75075;
     --color-black: #000000;
 }
 
-*{
+* {
     font-family: "Ubuntu", sans-serif;
+    font-family: "Fire code", sans-serif;
     color: var(--color-green);
 }
 
-.container-livros{
-    width: calc(100% - 200px);
-    border: 2px solid var(--color-green);
-    border-radius: 32px;
-    margin: 0 auto;
-    display: flex;
-    padding: 60px;
+body {
+    background: #181C23;
 }
 
-.livro{
-    width: 70%;
+.logo-capa {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-capa img {
+    width: 65%;
+    height: 112px;
+}
+
+.container-giftcard {
+    display: flex;
+    border-radius: 32px;
+    border-top: 2px solid #A6F750;
+    border-left: 2px solid #A6F750;
+    border-bottom: 2px solid #A6F750;
+    background: linear-gradient(0deg, rgba(40, 44, 51, 0.00) 0%, rgba(40, 44, 51, 0.00) 100%);
+    margin: 0 auto;
+    padding: 60px;
+    width: 1119px;
+    height: auto;
+    margin-top: 5rem;
+}
+
+.gift-card {
+    width: 100%;
     border-right: 1px solid var(--color-green);
     display: flex;
     flex-direction: column;
     padding-right: 20px;
 }
 
-.formulario{
+.formulario {
     width: 50%;
     padding-right: 60px;
 }
 
-.livro h2{
-    text-align: center;
-    font-size: 41px;
+.gift-card h2 {
+    display: flex;
+    justify-content: center;
+    color: #A6F750;
+    font-family: Ubuntu;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.livro-java img{
+.giftcard img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
-    margin-top: 80px;
-    height: 315px;
-    margin-bottom: 80px;
+    margin-top: 2rem;
+    width: 173px;
+    height: auto;
+    margin-bottom: 2rem;
 }
 
-.desc-livro p{
-    text-align: justify;
+.desc-gift p {
+    color: #FFF;
+    font-family: "Fira Code";
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+}
+
+.desc-gift strong {
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
 }
 
 .formulario {
     padding-left: 20px;
 }
 
-.formulario h2{
+.formulario h2 {
     text-align: center;
-    font-size: 41px;
-    margin-bottom: 100px;
+    color: #A6F750;
+    font-family: Ubuntu;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 50px;
 }
 
-.item-form{
+.item-form {
     display: flex;
     flex-direction: column;
     font-size: 17px;
-    margin-top: 20px;
+    margin-top: 1.7rem;
 }
 
-#quantidade, #nome, #email, #endereco, #cep{
+#quantidade,
+#nome,
+#email,
+#endereco,
+#cep {
     height: 26px;
     border: 1px solid var(--color-green);
     background-color: #181C23;
@@ -76,103 +132,235 @@
     line-height: 18px;
     padding-left: 10px;
     color: #FFF;
+    outline: none;
 }
 
-input::placeholder{
+input::placeholder {
     font-weight: 200;
-    color: var(--color-gren-opacity)
+    color: var(--color-gren-opacity);
 }
 
-.checkboxes{
-    margin-top: 10px;
+input:focus {
+    background-color: #181C23;
+    border-color: var(--color-green);
+    box-shadow: none;
 }
 
-.formulario h3{
+.formulario h3 {
     margin-top: 30px;
 }
 
-.form-checkbox{
-    display: flex;
-    align-items: center;
-}
-
-.form-checkbox label{
+.form-checkbox label {
+    font-family: "Fira Code";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     padding-left: 10px;
+    color: #A6F750;
+    cursor: pointer;
 }
 
-.form-checkbox input{
+.form-checkbox input {
     height: 14px;
     width: 14px;
-    border: 1px solid var(--color-green);
+    border: 1px solid #A6F750;
+    background: rgba(217, 217, 217, 0.00);
+    appearance: none;
+    cursor: pointer;
 }
 
-.publi p{
+.form-checkbox input:checked {
+    background-color: #A6F750;
+    border-color: #A6F750;
+}
+
+.form-checkbox input:checked::after {
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background: #FFF;
+    clip-path: polygon(0 0, 100% 100%, 100% 0, 0 100%);
+}
+
+.form-checkbox input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(166, 247, 80, 0.4);
+}
+
+.publi p {
     font-size: 13px;
 }
 
-.img-desconto{
+.img-desconto {
     margin-top: 20px;
 }
 
-.formulario button{
-    background-color: var(--color-green);
-    color: black;
+.formulario button {
+    display: inline-block;
+    border: 1px solid #A6F750;
+    background-color: #A6F750;
+    color: #282C33;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
     width: 100%;
     height: 38px;
     cursor: pointer;
-    border: none;
     margin-top: 10px;
+    margin-right: 1.6rem;
+    padding: 0.4rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: var(--color-dark-green);
+    color: white;
+    border-color: #A6F750;
+    transform: scale(1.05);
+}
+
+.cliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    gap: 9rem;
+}
+
+.vantagens {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.vantagens h2 {
+    width: 473px;
+    color: #A6F750;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(9px, 8vw, 38px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.vantagens p {
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(23px, 3vw, 44px);
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+}
+
+.vantagens span {
+    color: #FFF;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(28px, 2.7vw, 48px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cartao img {
+    width: 334px;
+    height: 253px;
+}
+
+.bnt-saiba {
+    display: inline-block;
+    width: 262px;
+    height: 44px;
+    border-radius: 27px;
+    border: 1px solid #A6F750;
+    background: #A6F750;
+    text-align: center;
+    color: #282C33;
+    font-family: "Fira Code";
+    font-size: 24px;
+    font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 1.6rem;
+    margin: 2rem;
+    padding: 0.4rem;
 }
 
-footer .container-livros{
-    border: none;
-    padding: 0;
-    margin-top: 40px;
+.bnt-saiba:hover {
+    background-color: transparent;
+    color: #FFF;
 }
 
-.desc-livro b{
-    color: var(--color-green);
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 951px;
+}
+
+.logo img {
+    width: 401px;
+    height: auto;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    height: 185px;
+    background: #A6F750;
+    padding: 2rem;
 }
 
-.desc-livro p{
-    color: #FFFFFF;
-    width: 100%;
+.contato p {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 450;
+    line-height: normal;
+    font-size: clamp(18px, 3vw, 30px);
 }
 
-
-.footer-img{
-    width: 30%;
+.contato strong {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 700;
+    line-height: normal;
+    font-size: clamp(18px, 2.5vw, 30px);
 }
 
-.footer-text{
-    padding: 20px;
-    width: 70%;
-    background-color: var(--color-green);
-}
-
-.footer-text h2, .footer-text h3{
-    color: var(--color-black);
-}
-
-.copyright{
+.copyright {
     display: flex;
     justify-content: space-between;
     color: var(--color-black);
 }
 
-.copyright p{
-    font-size: 15px;
+.copyright p {
     color: #181C23;
-    text-align: right;
-    position: relative;
-    bottom: -40px;
-    right: 0;
+    font-family: "Fira Code";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3rem;
+    margin-right: 1rem;
 }
 
-.btn-contato{
+.btn-contato {
     height: 49px;
     background-color: #282C33;
     display: flex;
@@ -182,121 +370,242 @@ footer .container-livros{
     padding: 10px;
     cursor: pointer;
     margin-top: 20px;
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: clamp(14px, 2.5vw, 16px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.btn-contato:hover{
+.btn-contato:hover {
     border: 2px solid var(--color-black);
     background-color: var(--color-green);
     color: var(--color-black);
 }
 
-.btn-contato i{
-    margin-right: 5px;
+.btn-contato i {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
 }
 
-.footer-text h2 {
-    font-size: 30px;
-}
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo-capa img {
+        width: 100%;
+    }
 
-.footer-text h3{
-    font-size: 12px;
-}
-
-.cartoes .container-livros{
-    border: none;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-.cartoes h1{
-    color: var(--color-green);
-    width: 100%;
-}
-
-.cartoes h2{
-    color: #FFFFFF;
-}
-
-.cartoes .btn-saiba-mais{
-    width: 262px;
-    height: 44px;
-    border-radius: 27px;
-    background-color: var(--color-green);
-    color: var(--color-black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.cartoes-texto{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-@media(min-width: 320px) and (max-width: 1024px) {
-    .container-livros{
+    .container-giftcard {
         flex-direction: column;
         width: calc(100% - 50px);
+        height: auto;
         padding: 30px 10px;
     }
-    .container-livros h2{
-        font-size: 20px;
-    }
-    .livro{
+
+    .giftcard {
         width: 100%;
         border: none;
         padding-right: 0px;
     }
-    .formulario{
+
+    .gift-card {
+        border-right: none;
+    }
+
+    .gift-card img {
+        width: 233px;
+        height: auto;
+    }
+
+    .container-giftcard h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .formulario {
         width: 100%;
     }
-    .banner-texto{
-        margin-top: 0;
-    }
-    .formulario h2, .formulario h3{
+
+    .formulario h2,
+    .formulario h3 {
         margin-top: 40px;
         margin-bottom: 10px;
     }
-    footer .container-livros{
+
+    .cliente {
+        gap: 2rem;
+    }
+
+    .cartao img {
+        width: 304px;
+        height: 253px;
+    }
+
+    .logo {
+        width: 251px;
+
+    }
+
+    .contato {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        width: 100%;
+        height: 183px;
+        background: #A6F750;
+        padding: 2rem;
+    }
+
+    .logo img {
+        width: 201px;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+}
+
+/* Estilos para celulares */
+@media (max-width: 767px) {
+    .logo-capa {
+        padding: 20px;
+        flex-direction: column;
         align-items: center;
     }
-    .footer-text h2, .footer-text h3{
-        font-size: 15px;
+
+    .logo-capa img {
+        width: 100%;
+        height: 52px;
+        margin-top: 2rem;
     }
-    .copyright{
+
+    .gift-card {
+        border-right: none;
+    }
+
+    .container-giftcard {
+        flex-direction: column;
+        width: calc(100% - 30px);
+        height: auto;
+        padding: 40px 10px;
+    }
+
+    .giftcard {
+        width: 100%;
+        border: none;
+        padding-right: 0px;
+    }
+
+    .gift-card img {
+        width: 133px;
+        height: auto;
+    }
+
+    .container-giftcard h2 {
+        font-size: 20px;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .formulario h2,
+    .formulario h3 {
+        color: #A6F750;
+        font-family: "Fira Code";
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .img-desconto img {
+        width: 210px;
+        height: auto;
+    }
+
+
+    .cliente {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vantagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* Alinhamento vertical */
+        text-align: center;
+
+        padding: 0 5%;
+        /* Adiciona espaçamento nas laterais */
+        box-sizing: border-box;
+        /* Garante que o padding seja incluído na largura total */
+    }
+
+    .vantagens h2 {
+        width: 100%;
+        word-wrap: break-word;
+        /* Quebra o texto longo em várias linhas se necessário */
+    }
+
+    .vantagens p,
+    .vantagens span {
+        margin: 10px;
+        /* Espaçamento entre os elementos */
+
+    }
+
+    .cartao {
+        text-align: center;
+    }
+
+    .cartao img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 351px;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 275px;
+        background: #A6F750;
+        padding: 2rem;
+
+    }
+
+    .btn-contato {
+        width: 250px;
+
+    }
+
+    .copyright {
         display: flex;
         flex-direction: column;
     }
-    .btn-contato{
-        font-size: 15px;
-    }
-    .cartoes-texto{
-        width: 100%;
-    }
-    .cartoes-texto h1{
-        width: 100%;
-        text-align: center;
-        font-size: 20px;
-    }
-    .cartoes-texto h2{
-        width: 100%;
-        text-align: center;
-        font-size: 18px;
-        margin-top: 10px;
-    }
-    .cartoes-texto .btn-saiba-mais{
-        width: 100%;
-        margin: 10px auto;
-    }
-    .cartoes-imagem img{
-        width: 300px;
-        margin: 0 auto;
-    }
+
 }

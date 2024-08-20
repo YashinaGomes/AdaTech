@@ -472,6 +472,9 @@ main p {
 
     }
 
+    .nossos_produtos {
+        width: 878px;
+    }
 
     .cliente {
         gap: 2rem;
@@ -542,6 +545,19 @@ main p {
 
     h1 {
         width: 100%;
+    }
+
+    .nossos_produtos {
+        width: 20px;
+        padding: 2rem;
+    }
+
+    .produto {
+        margin-left: -1.6rem;
+    }
+
+    main p {
+        width: 300px;
     }
 
     .cliente {
@@ -625,4 +641,5 @@ main p {
         display: flex;
         flex-direction: column;
     }
+
 }

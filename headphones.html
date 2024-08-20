@@ -1,64 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Headphones - Parceria AdaTech + Santander</title>
+    <title> Parceria AdaTech + Santander</title>
     <link rel="stylesheet" href="css/headphones.css">
+    <link rel="stylesheet" href="css/reset.css">
+
 </head>
+
 <body>
     <header>
-        <h1>Headphones Philips Bluetooth Over-Ear com Microfone</h1>
+        <div class="logo-capa">
+            <img src="public/images/LogoAdaTech+Santander.png" alt="Logo AdaTech" class="logo">
+        </div>
     </header>
 
     <main>
-        <article class="produto-detalhe">
-            <img src="img/produto3.jpg" alt="Headphones Philips">
-            <p>Escolha a cor do seu headphone:</p>
-            <form>
-                <label for="cor">Selecione a Cor:</label>
-                <select id="cor" name="cor">
-                    <option value="branco">Branco</option>
-                    <option value="preto">Preto</option>
-                    <option value="vermelho">Vermelho</option>
-                    <option value="azul">Azul</option>
-                </select>
-                
-                <label for="quantidade">Quantidade:</label>
-                <input type="number" id="quantidade" name="quantidade" min="1" max="10">
-                
-                <label for="nome">Nome Completo:</label>
-                <input type="text" id="nome" name="nome" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" required>
-                
-                <label for="pagamento">Forma de Pagamento:</label>
-                <select id="pagamento" name="pagamento">
-                    <option value="cartao">Cartão de Crédito</option>
-                    <option value="boleto">Boleto Bancário</option>
-                </select>
+        <section class="produto-giftcard">
+            <div class="container-giftcard">
+                <div class="gift-card">
+                    <h2> Headphones Philips Bluetooth</h2>
+                    <div class="giftcard">
+                        <img src="public/images/headphone.png" alt="Foto de um Headphone">
+                        <div class="desc-gift">
+                            <p><strong>Descrição do produto:</strong> Experimente um som de alta qualidade e um conforto
+                                superior com os Headphones Philips Bluetooth Over-Ear. Perfeitos para quem valoriza
+                                tanto a qualidade do áudio quanto o conforto durante longas sessões de uso, estes
+                                headphones são ideais para ouvir música, atender chamadas e até mesmo para uso durante
+                                atividades esportivas.
+                                <br>
+                            <p>
+                            <p><strong>Benefícios:</strong></p>
+                            <p> <strong>*Qualidade de Som Superior:</strong> Desfrute de áudio de alta definição com a
+                                tecnologia de som avançada da Philips.</p>
+                            <p> <strong>*Design Elegante e Confortável:</strong> Ideal para longas sessões de uso, com
+                                um design que combina estilo e conforto.</p>
+                            <p> <strong>*Desconto Exclusivo:</strong> 15% de desconto para alunos da AdaTech e clientes
+                                Santander na compra de Headphones.
+                            </p>
+                            </p>
+                            <br>
+                            <p>
+                            <p> <strong> Características Principais:</strong></p>
+                            <p><strong> Conectividade Bluetooth:</strong> Conexão sem fio estável e prática para
+                                liberdade de movimento.</p>
+                            <p><strong>Microfone Integrado:</strong> Permite atender chamadas e fazer vídeos sem
+                                necessidade de fones de
+                                ouvido adicionais.</p>
+                            <p> <strong>Reforço de Graves:</strong> Experimente um som poderoso e envolvente com graves
+                                profundos e claros.
+                                Conforto Duradouro: Almofadas macias e ajustáveis para um ajuste confortável durante
+                                todo o
+                                dia.</p>
+                            <p><strong>Cores Disponíveis:</strong> Branco, Preto, Vermelho, Azul.</p>
+                            </p><br>
+                            <p><strong>Como Adquirir:</strong> Escolha a cor desejada e adicione os headphones ao seu
+                                carrinho. Aproveite o desconto aplicável na finalização da compra, disponível
+                                exclusivamente para alunos da AdaTech e clientes Santander. Para mais informações sobre
+                                o produto e a compra, visite nossa página de produtos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="formulario">
 
-                <button type="submit">Comprar</button>
-            </form>
-        </article>
+                    <h2>Formulário de Compra</h2>
+
+                    <h3>Selecione o Valor</h3>
+                    <div class="checkboxes">
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="credito"><label for="credito">Branco</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="boleto"><label for="boleto">Preto</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Vermelho</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Azul</label>
+                        </div>
+                    </div>
+
+                    <div class="item-form">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" placeholder="Selecione a quantidade ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome completo ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" placeholder="Digite seu E-mail ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" placeholder="Digite seu e-mail ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" placeholder="Digite seu CEP ...">
+                    </div>
+                    <h3>Selecione a forma de pagamento</h3>
+                    <div class="checkboxes">
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="credito"><label for="credito">Cartão de crédito</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="boleto"><label for="boleto">Boleto Bancário</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Pix</label>
+                        </div>
+                    </div>
+                    <div class="publi">
+                        <p style="color: #ebebeb;">Compre com o cartão Santander e ganhe</p>
+                        <p><strong style="color: #FFFFFF;">15% de desconto</strong></p>
+                    </div>
+                    <div>
+                        <div class="item-form">
+                            <label for="desconto">CUPOM DE DESCONTO (AdaTech 15%)</label>
+                            <input type="text" id="endereco" placeholder="Digite o código do seu cupom ...">
+                        </div>
+                        <div class="img-desconto">
+                            <img src="public/images/Desconto.png" alt="Imagem com o cupom de desconto">
+                        </div>
+                    </div>
+                    <a href="confirmacao.html">
+                        <button type="button">Finalizar compra</button>
+                    </a>
+                    <a href="index.html">
+                        <button type="button">Voltar</button>
+                    </a>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="cliente">
+            <div class="vantagens">
+                <h2>Ainda não é cliente?</h2>
+                <p>Vantagens de Ser um</p>
+                <span>Cliente Santander na AdaTech</span>
+                <div class="saiba-mais">
+                    <a href="cliente.html" class="bnt-saiba">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="public/images/cartao.png" alt="Foto do Cartão Santander">
+            </div>
+        </section>
+
     </main>
-
-    <aside>
-        <p>Benefícios de ser cliente Santander:</p>
-        <ul>
-            <li>15% de desconto em todos os produtos da AdaTech</li>
-            <li>Acesso a eventos exclusivos</li>
-            <li>Condições especiais em serviços financeiros</li>
-        </ul>
-        <p><a href="adesao.html">Clique aqui</a> para aderir ao cartão Santander e aproveitar os benefícios.</p>
-    </aside>
-
     <footer>
-        <p>&copy; 2024 AdaTech + Santander. Todos os direitos reservados.</p>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="public/images/LogoFooter.png" alt="Logo da AdaTech">
+            </div>
+            <div class="contato">
+                <aside>
+                    <p>Precisa de ajuda?</p>
+                    <strong>Converse com a AdaTech pelo WhatsApp.</strong>
+                </aside>
+                <div class="copyright">
+                    <div class="btn-contato">
+                        <i>
+                            <img src="public/images/whatsapp.png" alt="WhatsApp">
+                        </i>
+                        Falar com o time agora
+                    </div>
+                    <p>Copyright © 2024 AdaTech.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>

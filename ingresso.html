@@ -1,54 +1,171 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingressos Culturais - Parceria AdaTech + Santander</title>
+    <title>Livros - Parceria AdaTech + Santander</title>
     <link rel="stylesheet" href="css/ingresso.css">
+    <link rel="stylesheet" href="css/reset.css">
+
 </head>
+
 <body>
     <header>
-        <h1>Parceria AdaTech + Santander</h1>
-        <p>Descontos exclusivos em diversos produtos!</p>
+        <div class="logo-capa">
+            <img src="public/images/LogoAdaTech+Santander.png" alt="Logo AdaTech" class="logo">
+        </div>
     </header>
 
     <main>
-        <section class="intro">
-            <h2>Ingressos Culturais</h2>
-            <p>Aproveite o desconto de 15% na compra de ingressos para eventos culturais, disponível para clientes Santander e alunos da AdaTech.</p>
+        <section class="produto-giftcard">
+            <div class="container-giftcard">
+                <div class="gift-card">
+                    <h2> Ingressos para Eventos Culturais</h2>
+                    <div class="giftcard">
+                        <img src="public/images/ingresso.png" alt="Foto de um ingresso">
+                        <div class="desc-gift">
+                            <p><strong>Descrição do produto:</strong> Aproveite a oportunidade de vivenciar eventos
+                                culturais exclusivos com nossos ingressos especiais! Oferecemos uma variedade de
+                                ingressos para diferentes eventos, desde espetáculos teatrais e musicais até exposições
+                                de arte e festivais culturais. Com nosso desconto exclusivo de 15% para alunos da
+                                AdaTech e clientes Santander, você pode desfrutar de uma rica experiência cultural por
+                                um preço mais acessível.
+                            </p>
+                            <br>
+                            <p>
+                            <p><strong>Benefícios:</strong></p>
+                            <p> <strong>*Desconto Exclusivo:</strong> 15% de desconto para alunos da AdaTech e clientes
+                                Santander.</p>
+                            <p> <strong>*Variedade de Eventos:</strong> Escolha entre uma ampla gama de eventos
+                                culturais para todos os gostos.</p>
+                            <p> <strong>*Facilidade na Compra:</strong> Adquira seus ingressos com facilidade e
+                                segurança através de nossa plataforma.</p>
+                            </p>
+                            <br>
+                            <p><strong>Como Adquirir:</strong> Escolha o evento de sua preferência, selecione o número
+                                de ingressos e aproveite o desconto aplicado na finalização da compra. Para obter mais
+                                informações sobre os eventos disponíveis e realizar sua compra, visite nossa página de
+                                ingressos e aproveite a cultura ao seu alcance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="formulario">
+
+                    <h2>Formulário de Compra</h2>
+
+                    <h3>Selecione o Valor</h3>
+                    <div class="checkboxes">
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="credito"><label for="credito">Teatro</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="boleto"><label for="boleto">Música</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Artes</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Festival</label>
+                        </div>
+                    </div>
+
+                    <div class="item-form">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" placeholder="Selecione a quantidade ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome completo ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" placeholder="Digite seu E-mail ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" placeholder="Digite seu e-mail ...">
+                    </div>
+                    <div class="item-form">
+                        <label for="cep">CEP</label>
+                        <input type="text" id="cep" placeholder="Digite seu CEP ...">
+                    </div>
+                    <h3>Selecione a forma de pagamento</h3>
+                    <div class="checkboxes">
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="credito"><label for="credito">Cartão de crédito</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="boleto"><label for="boleto">Boleto Bancário</label>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="pix"><label for="pix">Pix</label>
+                        </div>
+                    </div>
+                    <div class="publi">
+                        <p style="color: #ebebeb;">Compre com o cartão Santander e ganhe</p>
+                        <p><strong style="color: #FFFFFF;">15% de desconto</strong></p>
+                    </div>
+                    <div>
+                        <div class="item-form">
+                            <label for="desconto">CUPOM DE DESCONTO (AdaTech 15%)</label>
+                            <input type="text" id="endereco" placeholder="Digite o código do seu cupom ...">
+                        </div>
+                        <div class="img-desconto">
+                            <img src="public/images/Desconto.png" alt="Imagem com o cupom de desconto">
+                        </div>
+                    </div>
+                    <a href="confirmacao.html">
+                        <button type="button">Finalizar compra</button>
+                    </a>
+                    <a href="index.html">
+                        <button type="button">Voltar</button>
+                    </a>
+
+
+                </div>
+            </div>
         </section>
 
-        <section class="ingressos">
-            <article class="ingresso">
-                <img src="img/ingresso1.jpg" alt="Ingresso Evento A" style="width: 100%; height: auto;">
-                <h3>Evento Cultural A</h3>
-                <p><strong>Data:</strong> 10 de Setembro, 2024</p>
-                <p><strong>Local:</strong> Teatro Municipal</p>
-                <p><strong>Preço:</strong> R$ 150,00</p>
-                <a href="compra_ingresso1.html">Comprar</a>
-            </article>
-            <article class="ingresso">
-                <img src="img/ingresso2.jpg" alt="Ingresso Evento B" style="width: 100%; height: auto;">
-                <h3>Evento Cultural B</h3>
-                <p><strong>Data:</strong> 20 de Outubro, 2024</p>
-                <p><strong>Local:</strong> Centro de Convenções</p>
-                <p><strong>Preço:</strong> R$ 180,00</p>
-                <a href="compra_ingresso2.html">Comprar</a>
-            </article>
-            <article class="ingresso">
-                <img src="img/ingresso3.jpg" alt="Ingresso Evento C" style="width: 100%; height: auto;">
-                <h3>Evento Cultural C</h3>
-                <p><strong>Data:</strong> 15 de Novembro, 2024</p>
-                <p><strong>Local:</strong> Sala de Concertos</p>
-                <p><strong>Preço:</strong> R$ 200,00</p>
-                <a href="compra_ingresso3.html">Comprar</a>
-            </article>
-            <!-- Adicione mais artigos conforme necessário -->
+
+
+        <section class="cliente">
+            <div class="vantagens">
+                <h2>Ainda não é cliente?</h2>
+                <p>Vantagens de Ser um</p>
+                <span>Cliente Santander na AdaTech</span>
+                <div class="saiba-mais">
+                    <a href="cliente.html" class="bnt-saiba">Saiba Mais</a>
+                </div>
+            </div>
+            <div class="cartao">
+                <img src="public/images/cartao.png" alt="Foto do Cartão Santander">
+            </div>
         </section>
+
     </main>
-
     <footer>
-        <p>&copy; 2024 AdaTech + Santander. Todos os direitos reservados.</p>
+        <div class="container-footer">
+            <div class="logo">
+                <img src="public/images/LogoFooter.png" alt="Logo da AdaTech">
+            </div>
+            <div class="contato">
+                <aside>
+                    <p>Precisa de ajuda?</p>
+                    <strong>Converse com a AdaTech pelo WhatsApp.</strong>
+                </aside>
+                <div class="copyright">
+                    <div class="btn-contato">
+                        <i>
+                            <img src="public/images/whatsapp.png" alt="WhatsApp">
+                        </i>
+                        Falar com o time agora
+                    </div>
+                    <p>Copyright © 2024 AdaTech.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
