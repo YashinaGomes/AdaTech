@@ -1,6 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background: #181C23;
 }
+
+main {
+    flex: 1; /* Ensures the main content area expands to fill the remaining space */
+}
+
+.container-footer {
+    flex-shrink: 0; /* Keeps the footer at the bottom */
+}
+
 
 .confirmacao {
     display: flex;
@@ -219,7 +236,6 @@ button:hover {
         flex-direction: column;
         width: 100%;
         height: 183px;
-        background: #A6F750;
         padding: 2rem;
     }
 
@@ -296,11 +312,8 @@ button:hover {
     }
 
     .contato {
-        display: flex;
-        flex-direction: column;
         width: 100%;
         height: 275px;
-        background: #A6F750;
         padding: 2rem;
     }
 
