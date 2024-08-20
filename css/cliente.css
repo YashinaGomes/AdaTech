@@ -199,16 +199,11 @@ header a {
   text-decoration-line: none;
 }
 
-.logo-santander {
-  
-}
-
 .logo-santander img {
   width: 1039px;
   height: 231px;
   flex-shrink: 0;
-  padding: 1rem 5rem 0rem 5rem;
-  margin-bottom: 2rem;
+
 }
 
 .vantagens span {
@@ -225,44 +220,43 @@ header a {
   height: 253px;
 }
 
+.button-voltar {
+  display: flex;
+  padding: 5rem;
+}
 
-.bnt-saiba {
+button {
   display: inline-block;
-  width: 262px;
-  height: 44px;
-  border-radius: 27px;
-  border: 1px solid #a6f750;
-  background: #a6f750;
-  text-align: center;
-  color: #282c33;
-  font-family: "Fira Code";
-  font-size: 24px;
-  font-style: normal;
+  border-radius: 20px;
+  border: 1px solid #A6F750;
+  background-color: #A6F750;
+  color: #282C33;
+  font-family: "Fira Code", sans-serif;
   font-weight: 600;
+  font-size: 20px;
   line-height: normal;
+  text-align: center;
   text-decoration: none;
+  width: 345px;
+  height: 38px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 10px;
   margin-right: 1.6rem;
-  margin: 2rem;
   padding: 0.4rem;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-dark-green);
+  color: white;
+  border-color: #A6F750;
+  transform: scale(1.05);
 }
 
 .container-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.logo {
-  width: 951px;
-}
-
-.logo img {
-  width: 401px;
-  height: auto;
-  margin-left: 4rem;
-  margin-bottom: 1rem;
 }
 
 .contato {
@@ -387,9 +381,7 @@ header a {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -0.48px;
-
   }
-
 
   .cliente {
     gap: 2rem;
@@ -400,9 +392,25 @@ header a {
     height: 253px;
   }
 
-  .logo {
-    width: 251px;
+  .logo-santander {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .logo-santander img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .logo {
+    width: 351px;
+  }
+
+  .logo img{
+    width: 201px;
+    height: auto;
   }
 
   .contato {
@@ -498,17 +506,91 @@ header a {
     height: auto;
   }
 
+  .button-voltar {
+    padding: 3rem;
+  }
+
+  button {
+    width: 300px;
+  }
+
   .logo-santander {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
   .logo-santander img {
-    width: 438px;
-    height: 97px;
-
-
+    width: 100%;
+    height: auto;
+    padding: 3rem;
   }
+
+  .cliente {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .vantagens {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .vantagens p {
+    color: #fff;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(18px, 3vw, 44px);
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+  }
+  
+  .vantagens strong {
+    color: #fff;
+    font-family: "Fira Code", sans-serif;
+    font-size: clamp(18px, 2.7vw, 48px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .cartao {
+    width: 30%;
+  }
+  .benificios {
+    display: flex;
+    justify-content: center; /* Centers the .beneficios-cliente container within .benificios */
+}
+
+.beneficios-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.beneficios-cliente h2 {
+    font-size: 23px;
+}
+
+.beneficios-cliente p {
+    font-size: 19px;
+}
+
+.beneficios-cliente strong {
+    font-size: 26px;
+}
+
+.beneficios-cliente span {
+    font-size: 26px;
+}
+
+.beneficios-cliente a {
+    font-size: 26px;
+}
+
 
   .logo {
     display: flex;
@@ -520,7 +602,7 @@ header a {
   .logo img {
     width: 351px;
     height: auto;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
 
   .container-footer {
