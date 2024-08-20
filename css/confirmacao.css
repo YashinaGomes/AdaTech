@@ -163,9 +163,30 @@ header span a {
     width: 178px;
     height: 47px;
     flex-shrink: 0;
+}
+
+.confirmacao_interno_botao strong {
     color: black;
     font-size: 22px;
     font-family: "Fira Code";
+}
+
+.confirmacao_btn-contato {
+    height: 28px;
+    background-color: #282C33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: clamp(14px, 2.5vw, 16px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 @media (min-width: 768px) {

@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/livros.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
@@ -18,130 +16,155 @@
             <img src="public/images/LogoAdaTech+Santander.png" alt="Logo AdaTech" class="logo">
         </div>
 
-        <section class="intro">
-            <div class="banner">
-                <div class="banner-texto">
-                    <div class="desconto">
-                        <p>Descontos exclusivos em diversos produtos!<br>Se você é aluno da AdaTech ou cliente
-                            Santander,
-                            aproveite 15% de desconto na compra de cada produto.</p>
-                    </div>
-                    <div class="linha">
-                        <img src="public/images/linha_banner.png" alt="Logo AdaTech" class="linha_preta">
+        <div class="banner">
+            <div class="banner-texto">
+                <div class="desconto">
+                    <p>Descontos exclusivos em diversos produtos!<br>
+                        Se você é aluno da AdaTech ou cliente
+                        Santander,
+                        aproveite 15% de desconto na compra de cada produto.</p>
+                </div>
+                <div class="linha">
+                    <img src="public/images/linha_banner.png" alt="Logo AdaTech" class="linha_preta">
 
+                </div>
+                <div class="parceria">
+                    <div class="ada">
+                        <h1>Parceria AdaTech + Santander</h1>
                     </div>
-                    <div class="parceria">
-                        <div class="ada">
-                            <h1>Parceria AdaTech + Santander</h1>
-                        </div>
 
-                        <div class="santander">
-                            <span>
-                                Não é cliente Santander? <a href="adesao.html">Clique aqui</a> para se tornar um cliente
-                                e aproveitar os descontos exclusivos.
-                            </span>
-                        </div>
+                    <div class="santander">
+                        <span>
+                            Não é cliente Santander? <a href="adesao.html">Clique aqui</a> para se tornar um cliente
+                            e aproveitar os descontos exclusivos.
+                        </span>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
-    </header>
 
-    <main>
-        <div class="container-livros">
-            <div class="livro">
-                <h2>Java - Paul Deitel e Harvey Deitel</h2>
-                <div class="livro-java">
-                    <img src="./public/images/java-como-programar.png" alt="Livro de Java">
-                    <div class="desc-livro">
-                        <p><b>Descrição do produto:</b> Um guia completo para aprender Java, abordando desde os
-                            fundamentos até tópicos avançados. Os autores utilizam uma abordagem orientada a objetos e
-                            oferecem exercícios práticos para consolidar o aprendizado. Este livro é uma referência
-                            abrangente para quem deseja desenvolver aplicações robustas e escaláveis em Java.</p>
-                        <br>
-                        <p><b>Benefícios:</b>
-                            Desconto Exclusivo: 15% de desconto para alunos da AdaTech e clientes Santander na compra de
-                            Headphones.
-                        </p>
-                        <br>
-                        <p><b>Ideal para:</b> Iniciantes e programadores experientes que desejam aprofundar seus
-                            conhecimentos em Java.</p>
-                        <br>
-                        <p><b>Como Adquirir:</b> Escolha o livro desejado e adicione ao seu carrinho. Aproveite o
-                            desconto aplicável na finalização da compra, disponível exclusivamente para alunos da
-                            AdaTech e clientes Santander. Para mais informações sobre o produto e a compra, visite nossa
-                            página de produtos.</p>
+        <main>
+            <section class="produto-livro-java">
+                <div class="container-livros">
+                    <div class="livro">
+                        <h2>Java - Paul Deitel e Harvey Deitel</h2>
+                        <div class="livro-java">
+                            <img src="./public/images/java-como-programar.png" alt="Livro de Java">
+                            <div class="desc-livro">
+                                <p><b>Descrição do produto:</b><br> Um guia completo para aprender Java, abordando desde
+                                    os
+                                    fundamentos até tópicos avançados. Os autores utilizam uma abordagem orientada a
+                                    objetos e
+                                    oferecem exercícios práticos para consolidar o aprendizado. Este livro é uma
+                                    referência
+                                    abrangente para quem deseja desenvolver aplicações robustas e escaláveis em Java.
+                                </p>
+                                <br>
+                                <p><b>Benefícios:</b>
+                                    Desconto Exclusivo: 15% de desconto para alunos da AdaTech e clientes Santander na
+                                    compra de
+                                    Headphones.
+                                </p>
+                                <br>
+                                <p><b>Ideal para:</b> Iniciantes e programadores experientes que desejam aprofundar seus
+                                    conhecimentos em Java.</p>
+                                <br>
+                                <p><b>Como Adquirir:</b> Escolha o livro desejado e adicione ao seu carrinho. Aproveite
+                                    o
+                                    desconto aplicável na finalização da compra, disponível exclusivamente para alunos
+                                    da
+                                    AdaTech e clientes Santander. Para mais informações sobre o produto e a compra,
+                                    visite nossa
+                                    página de produtos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="formulario">
+                        <h2>Formulário de Compra</h2>
+                        <div class="item-form">
+                            <label for="quantidade">Quantidade</label>
+                            <input type="number" id="quantidade" placeholder="Selecione a quantidade ...">
+                        </div>
+                        <div class="item-form">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" placeholder="Digite seu nome completo ...">
+                        </div>
+                        <div class="item-form">
+                            <label for="email">E-mail</label>
+                            <input type="text" id="email" placeholder="Digite seu E-mail ...">
+                        </div>
+                        <div class="item-form">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" id="endereco" placeholder="Digite seu e-mail ...">
+                        </div>
+                        <div class="item-form">
+                            <label for="cep">CEP</label>
+                            <input type="text" id="cep" placeholder="Digite seu CEP ...">
+                        </div>
+                        <h3>Selecione a forma de pagamento</h3>
+                        <div class="checkboxes">
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="credito"><label for="credito">Cartão de crédito</label>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="boleto"><label for="boleto">Boleto Bancário</label>
+                            </div>
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="pix"><label for="pix">Pix</label>
+                            </div>
+                        </div>
+                        <div class="publi">
+                            <p style="color: #ebebeb;">Compre com o cartão Santander e ganhe</p>
+                            <p><b style="color: #FFFFFF;">15% de desconto</b></p>
+                        </div>
+                        <div>
+                            <div class="item-form">
+                                <label for="desconto">CUPOM DE DESCONTO (AdaTech 15%)</label>
+                                <input type="text" id="endereco" placeholder="Digite o código do seu cupom ...">
+                            </div>
+                            <div class="img-desconto">
+                                <img src="public/images/Desconto.png" alt="Imagem com o cupom de desconto">
+                            </div>
+                        </div>
+                        <button type="submit">Finalizar compra</button>
                     </div>
                 </div>
-            </div>
-            <div class="formulario">
-                <h2>Formulário de Compra</h2>
-                <div class="item-form">
-                    <label for="quantidade">Quantidade</label>
-                    <input type="number" id="quantidade" placeholder="Selecione a quantidade ...">
-                </div>
-                <div class="item-form">
-                    <label for="nome">Nome completo</label>
-                    <input type="text" id="nome" placeholder="Digite seu nome completo ...">
-                </div>
-                <div class="item-form">
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" placeholder="Digite seu E-mail ...">
-                </div>
-                <div class="item-form">
-                    <label for="endereco">Endereço</label>
-                    <input type="text" id="endereco" placeholder="Digite seu e-mail ...">
-                </div>
-                <div class="item-form">
-                    <label for="cep">CEP</label>
-                    <input type="text" id="cep" placeholder="Digite seu CEP ...">
-                </div>
-                <h3>Selecione a forma de pagamento</h3>
-                <div class="checkboxes">
-                    <div class="form-checkbox">
-                        <input type="checkbox" id="credito"><label for="credito">Cartão de crédito</label>
-                    </div>
-                    <div class="form-checkbox">
-                        <input type="checkbox" id="boleto"><label for="boleto">Boleto Bancário</label>
-                    </div>
-                    <div class="form-checkbox">
-                        <input type="checkbox" id="pix"><label for="pix">Pix</label>
-                    </div>
-                </div>
-                <div class="publi">
-                    <p style="color: #ebebeb;">Compre com o cartão Santander e ganhe</p>
-                    <p><b style="color: #FFFFFF;">15% de desconto</b></p>
-                </div>
-                <div>
-                    <div class="item-form">
-                        <label for="desconto">CUPOM DE DESCONTO (AdaTech 15%)</label>
-                        <input type="text" id="endereco" placeholder="Digite o código do seu cupom ...">
-                    </div>
-                    <div class="img-desconto">
-                        <img src="public/images/Desconto.png" alt="Imagem com o cupom de desconto">
-                    </div>
-                </div>
-                <button type="submit">Finalizar compra</button>
-            </div>
-        </div>
+            </section>
 
-        <footer>
-            <div class="container-livros">
-                <div class="footer-img">
-                    <img src="./public/images/LogoFooter.png" alt="Logo Ada Tech">
-                </div>
-                <div class="footer-text">
-                    <h2 style="font-weight: 200;">Precisa de ajuda?</h2>
-                    <h2 style="font-size: 30px; font-weight: 500;">Converse com a Ada pelo WhatsApp.</h2>
-                    <div class="copyright">
-                        <div class="btn-contato">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        Falar com o time agora</div>
-                        <p>Copyright © 2024 AdaTech.</p>
+            <section class="cartoes">
+                <div class="container-livros">
+                    <div class="cartoes-texto">
+                        <h1>Ainda não é cliente?</h1>
+                        <h2>Vantagens de ser um cliente Santander na AdaTech</h2>
+                        <div class="btn-saiba-mais">
+                            Saiba mais
+                        </div>
+                    </div>
+                    <div class="cartoes-imagem">
+                        <img src="public/images/cartao.png" alt="Cartao Santander + Ada Tech">
                     </div>
                 </div>
-            </div>
-        </footer>
+            </section>
+
+            </section>
+
+            <footer>
+                <aside class="container-livros">
+                    <div class="footer-img">
+                        <img src="./public/images/LogoFooter.png" alt="Logo Ada Tech">
+                    </div>
+                    <div class="footer-text">
+                        <h2 style="font-weight: 200;">Precisa de ajuda?</h2>
+                        <h3 style="font-weight: 500;">Converse com a Ada pelo WhatsApp.</h3>
+                        <div class="copyright">
+                            <div class="btn-contato">
+                                Falar com o time agora</div>
+                            <p>Copyright © 2024 AdaTech.</p>
+                        </div>
+                    </div>
+                </aside>
+            </footer>
 </body>
 
 </html>

@@ -132,6 +132,17 @@ footer .container-livros{
     margin-top: 40px;
 }
 
+.desc-livro b{
+    color: var(--color-green);
+    width: 100%;
+}
+
+.desc-livro p{
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
 .footer-img{
     width: 30%;
 }
@@ -142,7 +153,7 @@ footer .container-livros{
     background-color: var(--color-green);
 }
 
-.footer-text h2{
+.footer-text h2, .footer-text h3{
     color: var(--color-black);
 }
 
@@ -181,4 +192,111 @@ footer .container-livros{
 
 .btn-contato i{
     margin-right: 5px;
+}
+
+.footer-text h2 {
+    font-size: 30px;
+}
+
+.footer-text h3{
+    font-size: 12px;
+}
+
+.cartoes .container-livros{
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.cartoes h1{
+    color: var(--color-green);
+    width: 100%;
+}
+
+.cartoes h2{
+    color: #FFFFFF;
+}
+
+.cartoes .btn-saiba-mais{
+    width: 262px;
+    height: 44px;
+    border-radius: 27px;
+    background-color: var(--color-green);
+    color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cartoes-texto{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media(min-width: 320px) and (max-width: 1024px) {
+    .container-livros{
+        flex-direction: column;
+        width: calc(100% - 50px);
+        padding: 30px 10px;
+    }
+    .container-livros h2{
+        font-size: 20px;
+    }
+    .livro{
+        width: 100%;
+        border: none;
+        padding-right: 0px;
+    }
+    .formulario{
+        width: 100%;
+    }
+    .banner-texto{
+        margin-top: 0;
+    }
+    .formulario h2, .formulario h3{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    footer .container-livros{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .footer-text h2, .footer-text h3{
+        font-size: 15px;
+    }
+    .copyright{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-contato{
+        font-size: 15px;
+    }
+    .cartoes-texto{
+        width: 100%;
+    }
+    .cartoes-texto h1{
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .cartoes-texto h2{
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .cartoes-texto .btn-saiba-mais{
+        width: 100%;
+        margin: 10px auto;
+    }
+    .cartoes-imagem img{
+        width: 300px;
+        margin: 0 auto;
+    }
 }

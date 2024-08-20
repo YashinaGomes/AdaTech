@@ -24,6 +24,7 @@ body {
 
 .banner {
     background-image: url(../public/images/FundoBanner.png);
+    width: 100%;
     height: 287px;
     background-size: cover;
     background-position: center;
@@ -77,13 +78,12 @@ h1 {
 
 }
 
- header span {
+header span {
     color: #181C23;
     font-family: "Fira Code", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: clamp(14px, 1.5vw, 1px);
-    margin-bottom: 2rem;
+    font-size: clamp(13px, 1.5vw, 1px);
 }
 
 header a {
@@ -91,7 +91,7 @@ header a {
     height: 21px;
     color: #181C23;
     font-family: "Fira Code", sans-serif;
-    font-size: clamp(16px, 3vw, 16px);
+    font-size: clamp(16px, 3vw, 14px);
     font-style: normal;
     font-weight: 700;
     line-height: 1.2;
@@ -101,9 +101,9 @@ header a {
 .nossos_produtos {
     display: flex;
     flex-direction: column;
+    width: 1278px;
     gap: 1rem;
-    margin-top: 5rem;
-    padding: 5rem;
+    padding: 8rem;
 }
 
 strong {
@@ -117,6 +117,7 @@ strong {
 }
 
 main p {
+
     color: #FFF;
     font-family: "Fira Code", sans-serif;
     font-size: clamp(23px, 2.5vw, 24px);
@@ -133,10 +134,12 @@ main p {
 .produtos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* Ajusta o número de colunas com base no tamanho da tela */
-    gap: 6rem;
-    /* Espaçamento entre os itens */
+    gap: 5rem;
     padding: 2rem;
+    max-width: 1440px;
+    /* Define uma largura máxima para a grid */
+    margin: 0 auto;
+    /* Centraliza a grid horizontalmente */
 }
 
 
@@ -216,7 +219,7 @@ main p {
     /* Alinha o botão à direita */
 }
 
-.botao-link {
+.bnt-link {
     display: inline-block;
     width: 141px;
     height: 27px;
@@ -237,7 +240,7 @@ main p {
     /* Espaçamento à direita do botão */
 }
 
-.botao-link:hover {
+.bnt-link:hover {
     background-color: #00000000;
     color: #FFF;
 }
@@ -247,19 +250,20 @@ main p {
     justify-content: center;
     align-items: center;
     padding: 6rem;
-    gap: 14rem;
+    gap: 9rem;
 }
 
 .vantagens {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .vantagens h2 {
+    width: 473px;
     color: #A6F750;
     font-family: "Fira Code", sans-serif;
-    font-size: clamp(32px, 5vw, 48px); /* Ajuste de acordo com suas necessidades */
+    font-size: clamp(9px, 8vw, 38px);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -269,30 +273,149 @@ main p {
 .vantagens p {
     color: #FFF;
     font-family: "Fira Code", sans-serif;
-    font-size: clamp(18px, 3vw, 44px); /* Ajuste de acordo com suas necessidades */
+    font-size: clamp(23px, 3vw, 44px);
     font-style: normal;
     font-weight: 450;
     line-height: normal;
 }
 
-.vantagens strong {
+.vantagens span {
     color: #FFF;
     font-family: "Fira Code", sans-serif;
-    font-size: clamp(18px, 2.7vw, 48px); /* Ajuste de acordo com suas necessidades */
+    font-size: clamp(28px, 2.7vw, 48px);
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-
-.cartao {
-    width: 25%;
+.cartao img {
+    width: 334px;
+    height: 253px;
 }
 
-.saiba-mais {}
+.bnt-saiba {
+    display: inline-block;
+    width: 262px;
+    height: 44px;
+    border-radius: 27px;
+    border: 1px solid #A6F750;
+    background: #A6F750;
+    text-align: center;
+    color: #282C33;
+    font-family: "Fira Code";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 1.6rem;
+    margin: 2rem;
+    padding: 0.4rem;
 
-.button-cliente {}
+}
 
+.bnt-saiba:hover {
+    background-color: transparent;
+    color: #FFF;
+}
+
+
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 951px;
+
+}
+
+.logo img {
+    width: 401px;
+    height: auto;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 185px;
+    background: #A6F750;
+    padding: 2rem;
+}
+
+.contato p {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 450;
+    line-height: normal;
+    font-size: clamp(18px, 3vw, 30px);
+}
+
+
+.contato strong {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 700;
+    line-height: normal;
+    font-size: clamp(18px, 2.5vw, 30px);
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-black);
+}
+
+.copyright p {
+    color: #181C23;
+    font-family: "Fira Code";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3rem;
+    margin-right: 1rem;
+
+}
+
+.btn-contato {
+    height: 49px;
+    background-color: #282C33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #A6F750;
+    font-family: "Fira Code";
+    font-size: clamp(14px, 2.5vw, 16px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-contato:hover {
+    border: 2px solid var(--color-black);
+    background-color: var(--color-green);
+    color: var(--color-black);
+}
+
+.btn-contato i {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
 
 
 /* Estilos para tablets */
@@ -302,7 +425,7 @@ main p {
     }
 
     .banner {
-        height: 200px;
+        height: 230px;
     }
 
     .banner-texto {
@@ -321,13 +444,10 @@ main p {
         font-size: clamp(6px, 5vw + 1px, 16px);
         width: 250px;
         margin-bottom: 4rem;
-
     }
-
 
     h1 {
         width: 390px;
-
     }
 
     header span {
@@ -350,6 +470,39 @@ main p {
         line-height: 1.2;
         letter-spacing: -0.48px;
 
+    }
+
+    .nossos_produtos {
+        width: 878px;
+    }
+
+    .cliente {
+        gap: 2rem;
+    }
+
+    .cartao img {
+        width: 304px;
+        height: 253px;
+    }
+
+    .logo {
+        width: 251px;
+    
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 183px;
+        background: #A6F750;
+        padding: 2rem;
+    }
+
+    .logo img {
+        width: 201px;
+        height: auto;
+        margin-left: 1rem;    
     }
 
 }
@@ -395,6 +548,7 @@ main p {
     }
 
     .nossos_produtos {
+        width: 20px;
         padding: 2rem;
     }
 
@@ -402,14 +556,90 @@ main p {
         margin-left: -1.6rem;
     }
 
-    strong {
-        width: 200px;
-    }
-
     main p {
         width: 300px;
+    }
+
+    .cliente {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .vantagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* Alinhamento vertical */
+        text-align: center;
+
+        padding: 0 5%;
+        /* Adiciona espaçamento nas laterais */
+        box-sizing: border-box;
+        /* Garante que o padding seja incluído na largura total */
+    }
+
+    .vantagens h2 {
+        width: 100%;
+        word-wrap: break-word;
+        /* Quebra o texto longo em várias linhas se necessário */
+    }
+
+    .vantagens p,
+    .vantagens span {
+        margin: 10px;
+        /* Espaçamento entre os elementos */
 
     }
 
+    .cartao {
+        text-align: center;
+    }
+
+    .cartao img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 351px;
+        height: auto;
+        margin-left: 1rem;    
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 275px;
+        background: #A6F750;
+        padding: 2rem;
+
+    }
+
+    .btn-contato {
+        width: 250px;
+
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
