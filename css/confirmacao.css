@@ -2,101 +2,6 @@ body {
     background: #181C23;
 }
 
-.logo-capa {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-}
-
-.logo-capa img {
-    width: 65%;
-    /* Ajusta a largura para ocupar 100% do contêiner pai */
-    height: auto;
-    /* Mantém a proporção da imagem */
-}
-
-.intro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 6rem;
-
-}
-
-.banner {
-    background-image: url(../public/images/FundoBanner.png);
-    width: 100%;
-    /* Ajusta a largura para ocupar 100% do contêiner pai */
-    height: 287px;
-    background-size: cover;
-    /* Adiciona para garantir que a imagem cubra todo o banner */
-    background-position: center;
-    /* Centraliza a imagem no banner */
-}
-
-.linha {
-    width: 2px;
-    height: 183px;
-}
-
-
-.banner-texto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    gap: 6rem;
-}
-
-header p {
-
-    color: #181C23;
-    font-family: "Fira Code", sans-serif;
-    /* Define a fonte padrão e uma alternativa */
-    font-size: clamp(16px, 4vw, 20px);
-    /* Ajusta o tamanho da fonte entre 16px e 20px */
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.4;
-    /* Ajusta a altura da linha para melhor legibilidade */
-    letter-spacing: 2.2px;
-    margin: 0;
-    /* Remove margens padrão */
-    width: 601px;
-    height: 104px;
-}
-
-header h1 {
-    width: 561px;
-    height: 144px;
-    font-family: "Fira Code", sans-serif;
-    font-size: clamp(24px, 6vw, 55px);
-    /* Ajusta o tamanho da fonte entre 24px e 55px */
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.2;
-    /* Ajusta a altura da linha para melhor legibilidade */
-    margin: 0;
-    /* Remove margens padrão */
-
-}
-
-header span a {
-    width: 693px;
-    height: 21px;
-    color: #181C23;
-    font-family: "Fira Code", sans-serif;
-    font-size: clamp(12px, 3vw, 16px);
-    /* Ajusta o tamanho da fonte entre 12px e 16px */
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2;
-    /* Ajusta a altura da linha para melhor legibilidade */
-    letter-spacing: -0.48px;
-
-}
-
 .confirmacao {
     display: flex;
     justify-content: center;
@@ -106,7 +11,7 @@ header span a {
 }
 
 .confirmacao_interno {
-    width: 100%;
+    width: 80%;
     padding: 24px;
     border: solid 4px #A6F750;
     border-radius: 46px;
@@ -122,30 +27,42 @@ header span a {
 .confirmacao_interno_logo {
     display: flex;
     justify-content: center;
-    font-family: Ubuntu, sans-serif;
     align-items: baseline;
-    position: relative;
 }
 
 .confirmacao_interno_logo img {
-    width: 20%; 
+    width: 20%;
     height: auto;
     margin-right: 10px;
-    position: absolute;
     left: 0;
 }
 
-.confirmacao_interno_logo h3 {
+main h3 {
+    display: flex;
+    color: #A6F750;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.52px;
     flex: 1;
     text-align: center;
 }
 
 .confirmacao_interno_detalhes {
-    padding: 20px;
+    padding: 2rem;
 }
 
 .confirmacao_interno_detalhes p {
     color: #A6F750;
+    font-family: "Fira Code";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    letter-spacing: 1.68px;
+
 }
 
 .confirmacao_interno p {
@@ -153,30 +70,115 @@ header span a {
 }
 
 .confirmacao_interno p span {
+    font-family: "Fira Code";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: normal;
+    letter-spacing: 1.68px;
     color: white
 }
 
-.confirmacao_interno_botao_div {
+.button-voltar {
     display: flex;
     justify-content: center;
+    align-items: center;
+
 }
 
-.confirmacao_interno_botao {
-    border-radius: 16px;
+button {
+    display: inline-block;
+    border: 1px solid #A6F750;
+    background-color: #A6F750;
+    color: #282C33;
+    font-family: "Fira Code", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    width: 345px;
+    height: 38px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 1.6rem;
+    padding: 0.4rem;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--color-dark-green);
+    color: white;
+    border-color: #A6F750;
+    transform: scale(1.05);
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 951px;
+
+}
+
+.logo img {
+    width: 401px;
+    height: auto;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 185px;
     background: #A6F750;
-    width: 178px;
-    height: 47px;
-    flex-shrink: 0;
+    padding: 2rem;
 }
 
-.confirmacao_interno_botao strong {
-    color: black;
-    font-size: 22px;
+.contato p {
+    color: #282C33;
     font-family: "Fira Code";
+    font-weight: 450;
+    line-height: normal;
+    font-size: clamp(18px, 3vw, 30px);
 }
 
-.confirmacao_btn-contato {
-    height: 28px;
+
+.contato strong {
+    color: #282C33;
+    font-family: "Fira Code";
+    font-weight: 700;
+    line-height: normal;
+    font-size: clamp(18px, 2.5vw, 30px);
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-black);
+}
+
+.copyright p {
+    color: #181C23;
+    font-family: "Fira Code";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3rem;
+    margin-right: 1rem;
+
+}
+
+.btn-contato {
+    height: 49px;
     background-color: #282C33;
     display: flex;
     align-items: center;
@@ -193,123 +195,123 @@ header span a {
     line-height: normal;
 }
 
-@media (min-width: 768px) {
-    .confirmacao_interno {
-        max-width: 1400px;
-    }
+.btn-contato:hover {
+    border: 2px solid var(--color-black);
+    background-color: var(--color-green);
+    color: var(--color-black);
 }
 
-
-
-
-
+.btn-contato i {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
 
 /* Estilos para tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .logo-capa {
-        padding: 15px;
+    .logo {
+        width: 251px;
+
     }
 
-    .logo-capa img {
-        width: 80%;
-        /* Ajusta a largura da imagem para tablets */
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 183px;
+        background: #A6F750;
+        padding: 2rem;
     }
 
-    .intro {
-        padding-top: 5rem;
-        /* Ajusta o padding-top para tablets */
-    }
-
-    .banner {
-        height: 350px;
-        /* Ajusta a altura do banner para tablets */
-    }
-
-    .banner-texto {
-        margin: 3rem;
-        gap: 4rem;
-        /* Ajusta o gap entre os itens para tablets */
-    }
-
-    p {
-        font-size: 16px;
-        /* Ajusta o tamanho da fonte para tablets */
-        width: 250px;
-        /* Ajusta a largura do parágrafo para tablets */
+    .logo img {
+        width: 201px;
         height: auto;
-        /* Ajusta a altura automaticamente para tablets */
+        margin-left: 1rem;
     }
 
-    h1 {
-        width: 520px;
-        /* Ajusta a largura do título para tablets */
-        height: auto;
-        /* Ajusta a altura automaticamente para tablets */
-        margin-bottom: 2rem;
+    main h3 {
+        font-size: 22px;
     }
 
-    span a {
-        width: 500px;
-        /* Ajusta a largura do link para tablets */
+    .confirmacao_interno_detalhes p {
         font-size: 16px;
-        /* Ajusta o tamanho da fonte para tablets */
     }
+
+    .confirmacao_interno p {
+        width: 100%;
+    }
+
+    .confirmacao_interno p span {
+        font-size: 16px;
+    }
+
 }
 
 /* Estilos para celulares */
 @media (max-width: 767px) {
-    .logo-capa {
-        padding: 20px;
-        flex-direction: column;
-        /* Ajusta a direção do flex para celulares */
+    .logo {
+        display: flex;
+        justify-content: center;
         align-items: center;
-        /* Centraliza o conteúdo para celulares */
+        width: 100%;
     }
 
-    .logo-capa img {
-        width: 80%;
-        /* Ajusta a largura da imagem para celulares */
+    .logo img {
+        width: 351px;
+        height: auto;
+        margin-left: 1rem;
     }
 
-    .intro {
-        padding-top: 2rem;
-        /* Ajusta o padding-top para celulares */
+
+    .confirmacao_interno {
+        width: 366px;
+        height: 857px;
+        flex-shrink: 0;
     }
 
-    .banner {
-        height: 200px;
-        /* Ajusta a altura do banner para celulares */
+    main h3 {
+        font-size: 14px;
+        padding: 2rem;
     }
 
-    .banner-texto {
+    .confirmacao_interno_detalhes p {
+        font-size: 16px;
+    }
+
+    .confirmacao_interno p span {
+        font-size: 18px;
+
+    }
+
+    button {
+        width: 145px;
+        height: 38px;
+    }
+
+
+    .container-footer {
         display: flex;
         flex-direction: column;
-        /* Ajusta a direção do flex para celulares */
-        margin: 1rem;
-        gap: 1rem;
-        /* Ajusta o gap entre os itens para celulares */
-    }
-
-    p {
-        font-size: 12px;
-        /* Ajusta o tamanho da fonte para celulares */
-        width: 50%;
-        /* Ajusta a largura do parágrafo para celulares */
-        height: auto;
-        /* Ajusta a altura automaticamente para celulares */
-    }
-
-    h1 {
         width: 100%;
-        /* Ajusta a largura do título para celulares */
-        font-size: clamp(18px, 4vw, 40px);
-        /* Ajusta o tamanho da fonte para celulares */
     }
 
-    span a {
+    .contato {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        /* Ajusta a largura do link para celulares */
-        font-size: clamp(10px, 2vw, 14px);
-        /* Ajusta o tamanho da fonte para celulares */
+        height: 275px;
+        background: #A6F750;
+        padding: 2rem;
     }
+
+    .btn-contato {
+        width: 250px;
+
+    }
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
